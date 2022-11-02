@@ -477,3 +477,9 @@ __pycache__/
 OpenCover/
 junit/
 
+./Data/Final/Education.csv
+./Data/Final/Labor.csv
+./Data/Final/Environment.csv
+./Data/Final/Mortality.csv
+./Data/Final/DS4SG_Education.csv
+./Data/Raw/WDIData.csv
