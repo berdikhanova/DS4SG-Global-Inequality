@@ -6,7 +6,6 @@ from typing import Tuple, List
 import plotly.express as px
 import pandas as pd
 
-# Sample graph
 df = px.data.gapminder()
 fig = px.scatter(df, x="gdpPercap", y="lifeExp", 
                  trendline="ols",
