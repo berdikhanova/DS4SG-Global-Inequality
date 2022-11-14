@@ -20,6 +20,10 @@ from Code.visualizations import *
 # Import csv from url
 df = pd.read_csv("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/Assignment/Data/Final/indicators.csv?raw=true")
 
+#### MAKE LANDING PAGE ####
+
+
+
 
 def clear_page():
     clear()
