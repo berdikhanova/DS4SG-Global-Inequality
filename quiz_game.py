@@ -1,11 +1,13 @@
 
 from pywebio.output import *
 from pywebio.input import *
+from pywebio.session import *
 import sys as s
 from typing import Tuple, List
 import plotly.express as px
 import pandas as pd
 
+# Sample graph
 df = px.data.gapminder()
 fig = px.scatter(df, x="gdpPercap", y="lifeExp", 
                  trendline="ols",
@@ -13,7 +15,7 @@ fig = px.scatter(df, x="gdpPercap", y="lifeExp",
 html = fig.to_html(include_plotlyjs="require", full_html=False)
 
 # Import csv from url
-df_test = pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/main/Data/Raw/test_data%20-%20Sheet1.csv")
+df_test = pd.read_csv("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/df_indicator/Data/Final/test.csv?raw=true")
 fig1 = px.scatter(df_test, x="column_1", y="column_2")
 html1 = fig1.to_html(include_plotlyjs="require", full_html=False)
 
