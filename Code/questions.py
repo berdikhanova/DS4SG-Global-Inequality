@@ -11,8 +11,13 @@ from pywebio.platform import *
 from Code.visualizations import *
 
 def make_question(prompt, options, correct, explanation, graph = False, next_question = None):
+    # Clears the page
     clear()
+
+    # Creates a checkbox prompt
     answer = checkbox(prompt, options = options)
+
+    # Checks if the answer is correct
     if answer[0] == options[correct-1]:
         put_text("That's right!")
     else:
@@ -31,6 +36,7 @@ question_dict = {
         "explanation": "As you can see in this graph, although there were some fluctutions, Brazil's GDP per capita has increased over time.",
         "graph": brazil_gdp
     },
+
     "question2": {
         "prompt": "Is inequality big in Brazil?",
         "options": ["Yes", "No"],
@@ -38,6 +44,7 @@ question_dict = {
         "explanation": "As you can see in this graph, inequality is big in Brazil.",
         "graph": None
     },
+    
     ## Add more questions here
 }
 

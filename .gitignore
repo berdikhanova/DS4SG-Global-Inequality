@@ -1,5 +1,8 @@
 Data/Raw/
 *.csv
+*.DS_Store
+*.orig
+
 ## The .gitignore file specifies things that git should ignore. 
 ## This default template includes entries for R, Python and visual studio
 

@@ -19,3 +19,4 @@ def brazil_gdp():
     html = fig.to_html(include_plotlyjs="require", full_html=False)
 
     return html
+
