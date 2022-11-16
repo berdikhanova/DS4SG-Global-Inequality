@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 df = pd.read_csv("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/Assignment/Data/Final/indicators.csv?raw=true")
-
+df2 = pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/Assignment/Data/Final/df_countries.csv")
 # Plot birth registration in Brazil over time with plotly express
 def brazil_gdp():
     """
@@ -40,3 +40,22 @@ def life_expectancy():
     return html
 
 
+def birth_registration():
+    """
+    Plots birth registration
+    """
+    # Subsetting data
+    br_df = df2[(df2["Indicator Name"] == "Completeness of birth registration (%)") ]
+    br_df = br_df.groupby("Country Code").last()
+    br_df["Country Code"] = br_df.index.values
+    br_df = br_df.sort_values(by=['value'])
+    br_df = br_df.rename(columns={"value": "Completeness of birth registration (%)"})
+
+
+    # Plotting
+    fig = px.bar(br_df, x='Country Name', y='Completeness of birth registration (%)',
+                 title = "Completeness of birth registration (%)")
+    
+    html = fig.to_html(include_plotlyjs="require", full_html=False)
+    
+    return html

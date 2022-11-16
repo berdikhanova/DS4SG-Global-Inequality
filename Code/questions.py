@@ -77,7 +77,7 @@ question_dict = {
         "options": NUMBER,
         "correct": 48.7,
         "explanation": "This legal proof of identity can help protect children from violence, abuse and exploitation. Without a birth certificate, children are unable to prove their age, which puts them at a much higher risk of being forced into early marriage or the labour market, or recruited into armed forces.",
-        "graph": None
+        "graph": birth_registration
     }
     
     ## Add more questions here
