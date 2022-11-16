@@ -65,18 +65,18 @@ question_dict = {
     },
 
     "question3":{
-        "prompt": "Hong Kong and Central African Republic has the highest and lowest life expectancy at birth respectively. What is the difference in life expectancy between the two countries? ",
+        "prompt": "Hong Kong and the Central African Republic have the highest and lowest life expectancy at birth. What is the difference in life expectancy between these two countries? ",
         "options": ["15 years", "20 years", "25 years", "30 years"],
         "correct": 4,
-        "explanation": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "explanation": "Life expectancy ranges from 54.26  years in the Central African Republic to 85.29  years in Hong Kong – a staggering gap of 30 years. These extreme health inequities partly reflect wealth inequities between countries. Generally, wealthier countries have a higher average life expectancy than poorer countries, which can be argued to be achieved through higher standards of living, more effective health systems, and more resources invested in determinants of health (e.g. sanitation, housing, education).",
         "graph": life_expectancy
     },
 
     "question4":{
-        "prompt": "How many percentage of children in Zimbabue completed the birth registration and had legal proof of idenity in 2019? ",
+        "prompt": "How many percentage of children in Zimbabue completed the birth registration and had legal proof of idenity in 2019? Please answer between 0 and 100",
         "options": NUMBER,
         "correct": 48.7,
-        "explanation": "Nahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh I am working on it",
+        "explanation": "This legal proof of identity can help protect children from violence, abuse and exploitation. Without a birth certificate, children are unable to prove their age, which puts them at a much higher risk of being forced into early marriage or the labour market, or recruited into armed forces.",
         "graph": None
     }
     
@@ -104,3 +104,4 @@ def question5():
     #make_question(**question_dict["question3"])
     clear()
     put_text("In Development")
+    
