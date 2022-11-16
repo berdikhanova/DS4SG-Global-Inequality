@@ -1,0 +1,1936 @@
+Country Name,Country Code,Indicator Code,Indicator Name,Date,value
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1960,45.9043448004535
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1960,1372.00746616065
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1960,71.397075086826
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1960,65.6848049743065
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1960,68.4726435989534
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1960,151.695441828928
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1960,48.5719740471256
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1960,45.6753917626792
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1960,47.0383477966382
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1960,41.1254783106766
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1960,38.2187715589963
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1960,39.6593067083008
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1960,92.0992194895625
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1960,45.8760969721188
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1960,44.7162458691836
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1960,45.2453909766513
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1960,155.609665744998
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1960,49.0841687808764
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1960,46.164829530943
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1960,47.5341830169408
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1960,216.951074752025
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1960,51.9217086902554
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1960,47.4694921898774
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1960,49.5772028111847
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1961,45.7307937255988
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1961,1434.11561616704
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1961,71.8210981552023
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1961,66.048222241893
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1961,68.8652055978987
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1961,144.055238116385
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1961,49.0838084628776
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1961,46.1879076221986
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1961,47.5526135863053
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1961,41.5698419729703
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1961,38.6496643105588
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1961,40.0981397930463
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1961,95.3495982376409
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1961,46.4637189349885
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1961,45.294590848034
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1961,45.8287260328845
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1961,147.503903013816
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1961,49.605708129297
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1961,46.6876499621109
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1961,48.0584752803831
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1961,195.205255318658
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1961,52.4378635099281
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1961,47.9681608241134
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1961,50.0883164580646
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1962,46.4111716005364
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1962,1528.48601419772
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1962,71.8494031131248
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1962,66.001800504391
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1962,68.8550968909402
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1962,145.133716172363
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1962,49.6863185742358
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1962,46.7736577483535
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1962,48.148852142041
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1962,42.0085187393765
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1962,39.0737633743453
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1962,40.5304465324946
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1962,94.6892029402464
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1962,47.0476072322786
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1962,45.8614384030526
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1962,46.4041879953421
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1962,147.984713119889
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1962,50.2217082541797
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1962,47.2861131128177
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1962,48.6678715027296
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1962,197.411311492964
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1962,53.1070209298998
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1962,48.6077503360144
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1962,50.7468259000135
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1963,46.5995232479195
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1963,1626.10816884992
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1963,72.124123723439
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1963,66.1504990115913
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1963,69.0652893681282
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1963,153.318853873101
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1963,50.4087285151004
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1963,47.4577617235532
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1963,48.8542689912541
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1963,42.4480286187642
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1963,39.5022147401546
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1963,40.9654189991954
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1963,103.008770254554
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1963,47.6278327651084
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1963,46.416181581565
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1963,46.9714457180884
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1963,154.999326855624
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1963,50.9633891757432
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1963,47.9866816672127
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1963,49.3912115203052
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1963,202.263687962644
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1963,53.9930694863733
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1963,49.4426914012581
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1963,51.6119469408615
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1964,46.1025882179533
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1964,1753.35258747845
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1964,72.5597923814592
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1964,66.4997851910535
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1964,69.4565788536041
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1964,167.819828709565
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1964,51.2560808183246
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1964,48.2465232940512
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1964,49.6744483959681
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1964,42.8949830713123
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1964,39.9430198592235
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1964,41.4107374597689
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1964,113.009332814409
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1964,48.2026350035661
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1964,46.9576240169699
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1964,47.5289345512442
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1964,172.429419168944
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1964,51.8387204137407
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1964,48.7985807156682
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1964,50.236944950313
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1964,226.875185052943
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1964,55.141872349457
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1964,50.5059702752506
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1964,52.7228774941791
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1965,45.5960434084095
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1965,1882.04517805023
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1965,72.6907470027013
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1965,66.58085992121
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1965,69.5616030435382
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1965,181.315574251899
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1965,52.1917413421475
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1965,49.1129289923739
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1965,50.5768908423984
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1965,43.3535609058566
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1965,40.4010125213819
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1965,41.8706562226897
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1965,119.035808565605
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1965,48.7654631495065
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1965,47.4795115840689
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1965,48.0696311995691
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1965,185.774987722907
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1965,52.808076268438
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1965,49.692529839925
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1965,51.1699236069449
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1965,247.668424137119
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1965,56.480210952305
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1965,51.745382091638
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1965,54.0161258042789
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1966,44.5408418948855
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1966,2042.30669842524
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1966,72.9878854398317
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1966,66.7961911540925
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1966,69.8165123747424
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1966,183.546715387134
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1966,53.1604793562061
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1966,50.0170048941101
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1966,51.5150313588749
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1966,43.8244819652053
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1966,40.8751657302879
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1966,42.3456306631979
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1966,106.697603739706
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1966,49.3061095494199
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1966,47.9745130168286
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1966,48.5862013170555
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1966,187.586672265207
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1966,53.8119286912378
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1966,50.6255372892063
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1966,52.1399710157447
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1966,266.908669534891
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1966,57.8977760765673
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1966,53.0808245435311
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1966,55.3971189731559
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1967,44.2978738391522
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1967,2168.88469897282
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1967,73.2431973512618
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1967,66.9816924194373
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1967,70.035745071594
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1967,183.711519273467
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1967,54.109088885611
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1967,50.9143359333857
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1967,52.4393216245383
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1967,118.948982747155
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1967,44.3034157920442
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1967,41.3575738255953
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1967,42.8285389590222
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1967,111.383757425383
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1967,49.820061348487
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1967,48.4394751183142
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1967,49.0738800171563
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1967,188.187000300171
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1967,54.7946059989962
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1967,51.5517052509622
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1967,53.095587597086
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1967,262.319267991769
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1967,59.30375165935
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1967,54.4337740824006
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1967,56.7806794259949
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1968,43.7910828257377
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1968,2328.60768505514
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1968,73.3120590129058
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1968,66.8074609884011
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1968,69.9801697994087
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1968,189.422915785614
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1968,54.9950011999371
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1968,51.7722704916361
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1968,53.3122498473885
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1968,122.714349981361
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1968,44.784412028486
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1968,41.8407093332152
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1968,43.3127534642228
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1968,117.221829590711
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1968,50.3071471407391
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1968,48.8763942169593
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1968,49.5339050504218
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1968,194.042146265525
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1968,55.7103851784756
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1968,52.4361135013751
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1968,53.9965633863113
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1968,267.352038481838
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1968,60.6055571867997
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1968,55.7316380018232
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1968,58.0840587495015
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1969,41.558001637368
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1969,2536.39001601567
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1969,73.4907183895178
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1969,67.0237190361108
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1969,70.1770344439967
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1969,206.789003778692
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1969,55.7895153048865
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1969,52.5602157334333
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1969,54.1041680071713
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1969,136.632403600461
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1969,45.2631522228523
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1969,42.3197085286251
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1969,43.7933538001164
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1969,127.176445921233
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1969,50.7732630121645
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1969,49.2902461669886
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1969,49.9715717292533
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1969,211.65160394941
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1969,56.5284587531683
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1969,53.2460493884559
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1969,54.8111613732902
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1969,292.447668441366
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1969,61.7364735523825
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1969,56.9044900584282
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1969,59.2390696099553
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1970,39.3100782317235
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1970,2743.79575423643
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1970,73.7958682137355
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1970,67.3486130096741
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1970,70.4917057960893
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1970,221.392849098127
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1970,56.52667693916
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1970,53.2809521262271
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1970,54.8316581992696
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1970,137.754934660381
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1970,45.7348230516578
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1970,42.7906057604025
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1970,44.2662877734182
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1970,137.675205665736
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1970,51.2314593219238
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1970,49.6952468239015
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1970,50.4002882991704
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1970,227.214491566076
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1970,57.2856692471078
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1970,53.9848007413483
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1970,55.5574397198262
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1970,312.409895094734
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1970,62.7580907303872
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1970,57.9474136630783
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1970,60.2705734362587
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1971,38.8527381865439
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1971,3010.71947576983
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1971,74.1065007931936
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1971,67.6179541375589
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1971,70.7804995207828
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1971,22.7306346823084
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1971,232.70365470416
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1971,57.163482993853
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1971,53.9456140197537
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1971,55.4829439856796
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1971,146.287887877651
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1971,46.1964929893997
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1971,43.2517378121123
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1971,44.7292846640532
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1971,16.6644803150812
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1971,141.890488529477
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1971,51.6994245100104
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1971,50.1079536030824
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1971,50.8387308480499
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1971,23.0065089726013
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1971,238.727582441955
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1971,57.9362036602265
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1971,54.6643592516815
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1971,56.2229720804463
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1971,24.8151792883153
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1971,331.683807043054
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1971,63.5685798430744
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1971,58.8691976774078
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1971,61.1389298429161
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1972,37.0720978881433
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1972,3457.14372367789
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1972,74.3882849143148
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1972,67.9099338373419
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1972,71.0677479872077
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1972,21.6800517600089
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1972,254.42277612974
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1972,57.7312181859425
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1972,54.56101537131
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1972,56.0760632368607
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1972,155.824259772345
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1972,46.6456952008696
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1972,43.7018883830074
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1972,45.1804670737764
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1972,17.2014983885027
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1972,150.873540795585
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1972,52.1909217412234
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1972,50.5411267475178
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1972,51.3001241303786
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1972,22.0085347417284
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1972,261.316991268275
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1972,58.5143786304325
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1972,55.2927340289866
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1972,56.8278180476763
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1972,23.3244458834131
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1972,368.769839175117
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1972,64.2305064898263
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1972,59.6812732509027
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1972,61.8792231013126
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1973,37.2639855224018
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1973,4142.51151835402
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1973,74.5631891268916
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1973,68.0989915032408
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1973,71.2498317324171
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1973,20.2669087514997
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1973,316.754305850284
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1973,58.2889179245259
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1973,55.1526898674384
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1973,56.6522427155616
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1973,181.847484585267
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1973,47.0797157718345
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1973,44.1385006634538
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1973,45.6168063004107
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1973,15.9294046439291
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1973,181.376340210269
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1973,52.7136020732318
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1973,51.0009219697243
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1973,51.791162621385
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1973,20.4689265853348
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1973,326.226474484479
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1973,59.0833143784411
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1973,55.8971323817888
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1973,57.4160121532035
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1973,21.7107824405479
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1973,469.430952026897
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1973,64.8536951425764
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1973,60.4281036624711
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1973,62.56680106624
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1974,35.6765359015624
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1974,4626.62231179699
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1974,74.9613139402041
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1974,68.5264907479376
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1974,71.6623759552289
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1974,19.8003692529368
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1974,393.568673748218
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1974,58.8482593134544
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1974,55.7120069860374
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1974,57.2118142301408
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1974,222.150343451769
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1974,47.4956245081762
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1974,44.5584822392604
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1974,46.0360184146293
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1974,16.4514131203576
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1974,236.269753816821
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1974,53.2673340545387
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1974,51.4874374969747
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1974,52.3114023588006
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1974,20.0284965367446
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1974,405.651211293833
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1974,59.6558604567434
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1974,56.4687220858477
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1974,57.988221250836
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1974,20.9942442534478
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1974,570.494736612991
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1974,65.4644059479244
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1974,61.0941805862152
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1974,63.2049706613618
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1975,36.0269407593844
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1975,5115.25229222979
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1975,75.3320475889844
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1975,68.8426573880939
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1975,72.004473993013
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1975,19.6862950724872
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1975,426.609656381543
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1975,59.364401308139
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1975,56.223410887148
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1975,57.725950711916
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1975,247.555637977594
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1975,47.8911962141462
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1975,44.9590921784951
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1975,46.4353998471848
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1975,16.0843008701121
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1975,256.909966663876
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1975,53.8482930446898
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1975,51.9932826838824
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1975,52.8547788114575
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1975,19.8207057359174
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1975,439.281452024976
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1975,60.1843906786569
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1975,56.9913298877711
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1975,58.5140503040318
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1975,20.831639953621
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1975,617.144291822172
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1975,65.9779039502301
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1975,61.6575638638967
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1975,63.7435297431897
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1976,37.5364240868756
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1976,5526.9481583795
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1976,75.5939854918459
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1976,69.0958734471585
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1976,72.261368502811
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1976,18.4899364257988
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1976,448.717227153488
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1976,59.8905059808687
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1976,56.7185012428709
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1976,58.2363702897077
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1976,255.8541565619
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1976,48.2651820289757
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1976,45.3389755671239
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1976,46.8132264003074
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1976,17.1016525488626
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1976,279.317265472713
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1976,54.4458634861531
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1976,52.5042646290355
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1976,53.4090556439764
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1976,18.6196599978259
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1976,462.441320974035
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1976,60.7257644384298
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1976,57.4986182714253
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1976,59.0380636276684
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1976,18.9956035671848
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1976,639.171036067282
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1976,66.5083150952415
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1976,62.1931138336159
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1976,64.2755710296592
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1977,37.301936481681
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1977,6207.56338982423
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1977,75.9955367192505
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1977,69.3901784984162
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1977,72.6076789713736
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1977,18.7563043345116
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1977,494.296615181468
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1977,60.4103356300719
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1977,57.1690655823226
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1977,58.7193668944778
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1977,289.404138255441
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1977,48.6208277202443
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1977,45.6997883628359
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1977,47.1721984566898
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1977,16.384572812216
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1977,314.107391740233
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1977,55.043489807358
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1977,53.002986411094
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1977,53.9555756020379
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1977,18.8822751922864
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1977,508.953664561852
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1977,61.2623352297575
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1977,57.960248863697
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1977,59.5346575938596
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1977,19.5196436733777
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1977,695.856017427842
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1977,67.0361815963946
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1977,62.657356178143
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1977,64.7681210693032
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1978,36.2350290415642
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1978,7377.30700810174
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1978,76.1785914010112
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1978,69.501568006506
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1978,72.7531681380776
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1978,19.1479018926718
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1978,525.665332300089
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1978,60.9017865967277
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1978,57.5962915723273
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1978,59.1767264864206
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1978,316.918548556332
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1978,48.9635782476695
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1978,46.0463226114
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1978,47.5174024657524
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1978,15.2433046527981
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1978,338.195194447381
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1978,55.624995277206
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1978,53.4737203041082
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1978,54.4793002847003
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1978,19.2640422966801
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1978,540.673890297606
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1978,61.7694888620825
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1978,58.3979779803726
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1978,60.0048465221
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1978,20.3333835703308
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1978,734.456321200589
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1978,67.5236203721875
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1978,63.1030001686322
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1978,65.2322587002045
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1979,37.7063121895136
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1979,8457.56165288254
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1979,76.5449331857435
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1979,69.7588339032906
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1979,73.063121352654
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1979,18.3940531362022
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1979,611.279131273893
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1979,61.3556953580031
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1979,57.9698301879513
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1979,59.5878391035719
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1979,342.793049936166
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1979,49.2987101930512
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1979,46.3823558758642
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1979,47.8535769582958
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1979,14.8109240747655
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1979,379.530165689177
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1979,56.1794323186215
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1979,53.9092515853987
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1979,54.9713357548901
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1979,18.4801330206502
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1979,630.712572385185
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1979,62.236745654137
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1979,58.778792704646
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1979,60.4259410119716
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1979,19.4203946917548
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1979,877.869080222427
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1979,67.9594983052121
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1979,63.4720021293023
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1979,65.6315422201554
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1980,40.0950462790479
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1980,9369.58854942877
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1980,76.5584896266945
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1980,69.7937623085651
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1980,73.0869879505688
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1980,17.950238043303
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1980,705.650668573785
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1980,61.791313417099
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1980,58.3251435869311
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1980,59.9805216965593
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1980,363.946126414981
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1980,49.6320571651262
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1980,46.7127140653419
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1980,48.1857876509885
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1980,14.8786240243305
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1980,449.77689911631
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1980,56.6984424916254
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1980,54.3096767316751
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1980,55.4268581874685
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1980,17.9928426222181
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1980,730.540974100023
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1980,62.684417283753
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1980,59.1403297273627
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1980,60.8274393502785
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1980,18.7540874212435
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1980,1005.13029086188
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1980,68.3934576223866
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1980,63.8402028843446
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1980,66.0303826216922
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1981,40.2782828106017
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1981,9434.8207445183
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1981,76.9241894776899
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1981,70.1389318848611
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1981,73.4418930113693
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1981,18.3234778299761
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1981,776.726107137842
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1981,62.1998002110014
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1981,58.6618367843814
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1981,60.3527073167775
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1981,364.016517689938
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1981,49.9687125107968
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1981,47.0414363937542
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1981,48.5184637490727
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1981,15.5741574431438
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1981,528.134004857036
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1981,57.1787096956223
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1981,54.6836371537663
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1981,55.8504399098585
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1981,18.3770040452067
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1981,806.918152087331
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1981,63.1023291256645
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1981,59.4816142065376
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1981,61.2061187914348
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1981,19.1013873360756
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1981,1070.48758549926
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1981,68.8059295185472
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1981,64.1949085807011
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1981,66.4106173895284
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1982,41.1354439251474
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1982,9276.02985670302
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1982,77.2422236588595
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1982,70.4773459746719
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1982,73.7697911445543
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1982,18.6873575089549
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1982,750.060695607067
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1982,62.5896097485768
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1982,58.9993684259313
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1982,60.7150675592637
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1982,361.801527571858
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1982,50.3081007036203
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1982,47.3672020692408
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1982,48.851205302501
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1982,16.3897650250355
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1982,530.558027441288
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1982,57.6256415302088
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1982,55.0462191803582
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1982,56.2533157701396
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1982,18.7705985825842
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1982,778.529146013154
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1982,63.4993218504165
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1982,59.8233290474363
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1982,61.5739770895852
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1982,19.3837817646546
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1982,1005.92242512717
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1982,69.2029643646683
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1982,64.5570483987651
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1982,66.7887518662507
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1983,41.717682538826
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1983,9509.87891457644
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1983,77.3302126424582
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1983,70.5945255039685
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1983,73.8729648130312
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1983,18.722199055039
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1983,710.115098545166
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1983,62.9314786576458
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1983,59.3067412726631
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1983,61.0387456090283
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1983,342.033274673588
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1983,50.6461016899863
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1983,47.6862784518678
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1983,49.1798415362547
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1983,16.4960138749614
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1983,511.982638499132
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1983,58.0472251007099
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1983,55.4119988561802
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1983,56.6464473108466
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1983,18.7955388421135
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1983,737.209055330551
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1983,63.8451094688641
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1983,60.1333116330317
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1983,61.9008212532736
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1983,19.4092582468388
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1983,940.641822960936
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1983,69.5242901234783
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1983,64.8539656757964
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1983,67.0965606782426
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1984,41.1239100038875
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1984,9853.93384077693
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1984,77.6171421719848
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1984,70.852327511746
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1984,74.1445625674062
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1984,19.3586459367366
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1984,703.614088245523
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1984,63.2396552660211
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1984,59.5957500407394
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1984,61.3375172856874
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1984,327.900068613888
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1984,50.976801952062
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1984,47.9925910704181
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1984,49.4981776559177
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1984,17.3008873994805
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1984,493.517600276337
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1984,58.4477681706628
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1984,55.7853218773722
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1984,57.0349301422977
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1984,19.4651884880104
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1984,731.439847661103
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1984,64.156005866077
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1984,60.4251246547796
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1984,62.2023473400367
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1984,20.0507200122593
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1984,954.221727552762
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1984,69.7992552610616
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1984,65.109064661143
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1984,67.360457089999
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1985,41.9501042789733
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1985,10277.842639371
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1985,77.7292596161257
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1985,70.993340502376
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1985,74.2712124870297
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1985,20.6610367283707
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1985,716.979014001047
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1985,63.5550165801995
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1985,59.9288728196903
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1985,61.6645733157736
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1985,321.888611011011
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1985,51.2863364885709
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1985,48.2711375553912
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1985,49.7921861973202
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1985,19.3627161888912
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1985,513.314726141268
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1985,58.8321531767309
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1985,56.1693260728828
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1985,57.4228496608078
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1985,20.7870244045105
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1985,746.436092902669
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1985,64.4768349650228
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1985,60.7666425935128
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1985,62.5365347209908
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1985,21.1520898587874
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1985,961.620892055579
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1985,70.1063045891996
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1985,65.4501260904789
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1985,67.6867650996482
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1986,41.3546746413952
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1986,12394.741246166
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1986,77.9438521694959
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1986,71.254606838627
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1986,74.5095017128243
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1986,21.4421963132138
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1986,729.281558540654
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1986,63.8877149549186
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1986,60.2899778129434
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1986,62.01571770973
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1986,358.570153004802
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1986,51.5579079788378
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1986,48.5044864135806
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1986,50.0447617792012
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1986,20.5997937366645
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1986,533.308633234614
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1986,59.2083615397829
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1986,56.5624530257494
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1986,57.8129863648794
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1986,21.6076781986093
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1986,756.971807084865
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1986,64.8196594254597
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1986,61.1417245014921
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1986,62.900031793933
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1986,21.8483457315047
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1986,958.083815377142
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1986,70.4601572011707
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1986,65.8451093121695
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1986,68.0647356376019
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1987,41.6300949374043
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1987,14267.5079604515
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1987,78.2009568949965
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1987,71.5123450035877
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1987,74.7662519517719
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1987,22.2708425329053
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1987,738.168429906479
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1987,64.1735758636947
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1987,60.5688330694
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1987,62.2997450012004
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1987,405.545284778565
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1987,51.779823196867
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1987,48.6812226089461
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1987,50.2440341531442
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1987,22.3372564075312
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1987,509.874833638901
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1987,59.5964846028465
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1987,56.9749738635064
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1987,58.2186818634039
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1987,22.4143245789125
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1987,762.916630385476
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1987,65.1163531369423
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1987,61.4330628156846
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1987,63.1957873629421
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1987,22.3725438922195
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1987,1005.87980311668
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1987,70.7040444066198
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1987,66.0453339255716
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1987,68.284758028733
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1988,41.4091240771061
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1988,15952.68119067
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1988,78.3081710058787
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1988,71.6428965762354
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1988,74.8851443448472
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1988,21.9083866831835
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1988,768.962104007485
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1988,64.4488874564141
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1988,60.8110629478712
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1988,62.5579689739685
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1988,359.326912919695
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1988,51.9495831923283
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1988,48.8004879473484
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1988,50.3882712163046
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1988,22.0927918032772
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1988,507.243305765323
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1988,59.9686804048214
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1988,57.370681872528
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1988,58.607849591364
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1988,22.0560772706313
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1988,799.890888513904
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1988,65.4065970210141
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1988,61.6901905765572
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1988,63.468878489434
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1988,21.9919327569789
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1988,1097.59269526435
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1988,70.9489121343971
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1988,66.1905583286226
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1988,68.4739327418477
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1989,40.3481893855879
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1989,16570.748501742
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1989,78.5642612111989
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1989,71.8776685273583
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1989,75.1297609858404
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1989,22.4549674543924
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1989,783.936790840428
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1989,64.7126591869144
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1989,61.0202954568316
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1989,62.7925574942784
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1989,386.334125080607
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1989,52.0788774339086
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1989,48.8772930995647
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1989,50.4907292563364
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1989,22.4677255143952
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1989,495.609818590969
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1989,60.3646265952338
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1989,57.7592099540446
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1989,59.0025447027878
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1989,22.5717381581483
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1989,814.472576728121
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1989,65.688867597156
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1989,61.9164777701257
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1989,63.7210649797481
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1989,22.5763099398961
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1989,1143.05980189082
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1989,71.154118230559
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1989,66.2797231530277
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1989,68.6146447387626
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1990,39.4413503437467
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),1990,9931843.479
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1990,18474.3351231785
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1990,78.7740632988082
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1990,71.9996609716962
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1990,75.2939226921621
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1990,32.6250055962503
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),1990,23144580.969
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1990,886.099099594459
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1990,64.9678224295138
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1990,61.2107216204154
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1990,63.0129050590819
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),1990,4070712.1
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1990,459.578170316124
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1990,52.1899798100578
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1990,48.937800293245
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1990,50.5754233312143
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1990,33.5897775853659
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),1990,6882258.869
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1990,522.028316704539
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1990,60.7522332350956
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1990,58.1402143403942
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1990,59.3892375168157
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1990,33.0047639326329
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),1990,19073868.869
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1990,919.484897572765
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1990,65.9642967120621
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1990,62.1250277936273
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1990,63.9604095513741
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1990,32.7926582615419
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),1990,12191610.0
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1990,1335.81929969139
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1990,71.3601155780108
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1990,66.3438511438332
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1990,68.7421136745634
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1991,39.0845790490518
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),1991,9938720.725
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1991,19379.2887767602
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1991,78.9525067526335
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1991,72.1704564044639
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1991,75.4678102904442
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1991,33.5870385493641
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),1991,23110179.614
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1991,841.656087136781
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1991,65.2132896683163
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1991,61.4015206855403
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1991,63.2298975311028
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),1991,4053279.824
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1991,501.889463430142
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1991,52.309634998352
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1991,49.0134209701892
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1991,50.6710633312465
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1991,34.3689507123908
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),1991,6896930.626
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1991,482.339204742397
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1991,61.1243095638082
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1991,58.492575006618
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1991,59.7527843336885
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1991,33.9821951674996
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),1991,19056899.79
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1991,869.273539161549
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1991,66.2286188939047
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1991,62.3333694289099
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1991,64.1955915645243
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1991,33.8399888450601
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),1991,12159969.164
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1991,1277.05666089583
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1991,71.5315673889408
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1991,66.4158738863201
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1991,68.8605121577688
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1992,38.8485723564133
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),1992,10049392.849
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1992,20721.0105258093
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1992,79.2082564500246
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1992,72.4280481665129
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1992,75.7249610110653
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1992,35.0940133925686
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),1992,31477939.014
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1992,853.836788098963
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1992,65.3896698456404
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1992,61.5316440184836
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1992,63.3803684598011
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),1992,4035847.548
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1992,359.716648919327
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1992,52.4584810648143
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1992,49.1266787228257
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1992,50.7986438242955
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1992,35.1054859302596
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),1992,6997613.148
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1992,496.069527828294
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1992,61.5030471395182
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1992,58.8351921280853
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1992,60.1132179327778
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1992,35.5130141641085
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),1992,27442091.466
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1992,892.885620464039
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1992,66.4216341800196
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1992,62.4788284140029
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1992,64.3619694862267
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1992,35.6479437245985
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),1992,20444478.318
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1992,1314.7470491477
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1992,71.5941112661943
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1992,66.3996165381038
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1992,68.8777692935744
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1993,38.5603223039787
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),1993,10101529.385
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1993,20720.6759684848
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1993,79.2314003922948
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1993,72.5422847012866
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1993,75.7951804132143
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1993,35.5744077563889
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),1993,31395521.598
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1993,895.740098401892
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1993,65.6044028040457
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1993,61.6246649049358
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1993,63.5277479887702
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),1993,4018415.272
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1993,365.810340923445
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1993,52.6385743232714
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1993,49.2796158004654
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1993,50.9604719512795
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1993,35.0540857346554
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),1993,6963923.173
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1993,489.676492816212
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1993,61.8617079285238
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1993,59.1661561069971
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1993,60.4582786959947
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1993,36.0299720992659
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),1993,27377106.326
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1993,938.121305661638
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1993,66.6525780007662
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1993,62.5805293136814
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1993,64.5214984133928
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1993,36.3623966945295
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),1993,20413183.153
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1993,1416.88727711239
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1993,71.7327115042786
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1993,66.2863198148949
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1993,68.8768668686999
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1994,37.9852345578836
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),1994,10108333.319
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1994,22146.848454271
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1994,79.5156150832181
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1994,72.8076352052457
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1994,76.0694295982089
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1994,37.1870558558246
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),1994,31313104.182
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1994,966.107576776981
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1994,65.8728676034597
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1994,61.7870047533631
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1994,63.737450315549
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),1994,4000982.996
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1994,351.528488137467
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1994,52.8381633608263
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1994,49.4588011542194
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1994,51.1445169720834
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1994,34.4811788773701
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),1994,6930233.198
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1994,517.253622680709
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1994,62.2139755142463
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1994,59.4813571983054
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1994,60.7915929977307
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1994,37.6859386193139
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),1994,27312121.186
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1994,1015.58272050887
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1994,66.9404807811785
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1994,62.7549919369577
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1994,64.7467828377135
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1994,38.8052977321969
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),1994,20381887.988
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1994,1552.04224318927
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1994,71.9928863245968
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1994,66.3378048564667
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1994,69.0212442553761
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1995,37.5383025647564
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),1995,10115137.255
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1995,24395.8770648855
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1995,79.5433493198588
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1995,72.9102979213927
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1995,76.1345425367794
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1995,37.5545239756514
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),1995,31230686.768
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1995,1071.8525835466
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1995,66.1134477949171
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1995,62.0156534395463
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1995,63.9716481902428
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),1995,3983550.72
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1995,384.373521061199
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1995,53.054851573785
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1995,49.66370629222
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1995,51.3498674823837
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1995,35.4807773971105
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),1995,6896543.225
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1995,575.970908128743
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1995,62.5559176920065
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1995,59.7780775960967
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1995,61.1104062421983
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1995,38.0881574395075
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),1995,27247136.048
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1995,1127.92359257816
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1995,67.1969684515813
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1995,62.9987271495234
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1995,64.9967800120581
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1995,39.0037386163795
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),1995,20350592.823
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1995,1727.03801325195
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1995,72.198241685539
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1995,66.5530697212502
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1995,69.2314310808649
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1996,38.0513118971489
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),1996,10121941.191
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1996,24442.9655518632
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1996,79.8166591553523
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1996,73.3460793414817
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1996,76.4915234766679
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1996,38.3726980967932
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),1996,31148269.354
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1996,1156.27776936096
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1996,66.3966786895142
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1996,62.3107481319747
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1996,64.261681867167
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),1996,3966118.444
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1996,412.511588749713
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1996,53.2998328266189
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1996,49.9081263061607
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1996,51.5900326609517
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1996,34.939114520018
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),1996,6862853.252
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1996,631.914990740924
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1996,62.9033500072811
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1996,60.0976385079643
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1996,61.4441820854672
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1996,38.9206148875818
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),1996,27182150.91
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1996,1217.73816447091
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1996,67.4972152095206
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1996,63.3106537188855
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1996,65.3040949639552
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1996,40.3170211650733
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),1996,20319297.658
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1996,1858.8592643238
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1996,72.487731312082
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1996,66.8860987634169
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1996,69.5444796059151
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1997,38.0004085638484
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),1997,10128745.125
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1997,23870.7809131419
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1997,80.0970121534648
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1997,73.7158511176938
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1997,76.8174270330167
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1997,38.6392120131757
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),1997,31065851.938
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1997,1204.73814167395
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1997,66.6767789033582
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1997,62.6261147918577
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1997,64.562933490155
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),1997,3948686.168
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1997,432.623678553053
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1997,53.5869178862659
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1997,50.2068232558765
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1997,51.8798533414471
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1997,34.9886354952915
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),1997,6829163.277
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1997,634.446728313557
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1997,63.2426858317088
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1997,60.4157507207702
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1997,61.7742741883165
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1997,39.1826349924121
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),1997,27117165.77
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1997,1269.40309784697
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1997,67.788532737737
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1997,63.6381782817447
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1997,65.617506241493
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1997,40.6751953003201
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),1997,20288002.493
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1997,1969.9554667641
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1997,72.7477948836976
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1997,67.2405794868487
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1997,69.8580751469516
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1998,37.928357822324
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),1998,10135549.061
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1998,23811.8411805623
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1998,80.2547676609762
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1998,73.9471080308232
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1998,77.013363567554
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1998,38.1948536424128
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),1998,30983434.522
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1998,1148.26433779153
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1998,66.9308483040526
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1998,62.9116012699614
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1998,64.8342723481959
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),1998,3931253.892
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1998,429.224167366574
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1998,53.9260543459927
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1998,50.5689747658005
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1998,52.2291246336214
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1998,34.5810105595989
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),1998,6795473.302
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1998,568.972129631853
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1998,63.5793333887718
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1998,60.7345057700013
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1998,62.102764861091
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1998,38.797468267939
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),1998,27052180.63
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1998,1209.43823142843
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1998,68.0514094949152
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1998,63.9317882668238
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1998,65.897511891221
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1998,40.3281268060242
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),1998,20256707.328
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1998,1921.92945914703
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1998,72.9878453180031
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1998,67.5483521068547
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1998,70.134494235019
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1999,37.307773420536
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),1999,10142352.995
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1999,24858.5286902035
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1999,80.3306086400793
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1999,74.1805700948748
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1999,77.1699480131672
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1999,38.8408243232204
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),1999,30901017.107
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),1999,1107.76840193503
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1999,67.1547515128789
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1999,63.1608332345148
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1999,65.072099479243
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),1999,3913821.616
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1999,424.172384481349
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1999,54.3221195381888
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1999,50.9982926425281
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1999,52.6427766768511
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1999,35.389852597046
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),1999,6761783.328
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1999,603.425125530123
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1999,63.8942465968613
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1999,61.026387235043
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1999,62.4069813951895
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1999,39.4519424727737
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),1999,26987195.491
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),1999,1166.84010973632
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1999,68.2752589048214
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1999,64.1795705968859
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1999,66.1345643090471
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),1999,40.9594137941989
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),1999,20225412.163
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),1999,1798.97776092013
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",1999,73.1516341213811
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",1999,67.7767041889763
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",1999,70.332075520568
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2000,38.280777614016
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),2000,10149156.931
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2000,25224.9637899144
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2000,80.5719348593683
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2000,74.5083896279494
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2000,77.4556694655246
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2000,39.8585186891293
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),2000,30818599.692
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2000,1193.11207823719
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2000,67.415470513173
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2000,63.4392575434764
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2000,65.3435023595912
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),2000,3896389.34
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2000,481.416101918661
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2000,54.7778490415438
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2000,51.4941199731184
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2000,53.1205513452143
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2000,36.2341336619139
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),2000,6728093.354
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2000,623.533387899007
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2000,64.2115375030777
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2000,61.3203398649199
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2000,62.7129208015199
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2000,40.490714513604
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),2000,26922210.352
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2000,1255.77433068183
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2000,68.5326792195503
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2000,64.452585658338
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2000,66.4015255763633
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2000,42.0487511620432
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),2000,20194116.998
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2000,1971.42288015222
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2000,73.3668107386914
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2000,68.0451743906681
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2000,70.5770520911634
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2001,37.6870118074059
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),2001,10157398.219
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2001,24822.4260098061
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2001,80.8359536020497
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2001,74.8382759277101
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2001,77.7533590298272
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2001,40.3691209094863
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),2001,30759862.445
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2001,1186.90694601289
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2001,67.6752173255219
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2001,63.7439463719327
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2001,65.6291006682409
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),2001,3879557.426
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2001,468.86579269388
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2001,55.2921230057389
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2001,52.0512625301398
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2001,53.6593205825436
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2001,36.6919094939192
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),2001,6708379.916
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2001,626.303880198564
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2001,64.5395670838838
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2001,61.638095978322
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2001,63.0366258892834
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2001,41.0326997407731
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),2001,26880305.019
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2001,1251.03026886835
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2001,68.7862706545597
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2001,64.7512106155184
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2001,66.6809809361803
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2001,42.6348017703869
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),2001,20171925.103
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2001,1964.54933863313
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2001,73.5795802200764
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2001,68.3543364188443
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2001,70.8437764355678
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2002,37.5645475469907
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),2002,10165639.509
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2002,25723.7291265166
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2002,80.9583058632214
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2002,74.9884476509738
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2002,77.8892071129432
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2002,41.3661229234674
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),2002,30701125.196
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2002,1199.69554248195
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2002,67.9445246253138
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2002,64.0490281465087
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2002,65.9190056724883
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),2002,3862725.512
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2002,487.983221403507
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2002,55.859516385744
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2002,52.6581441391016
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2002,54.2496397718097
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2002,36.5875002281115
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),2002,6688666.478
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2002,658.424131339019
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2002,64.8845787444226
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2002,61.967998736239
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2002,63.375166444849
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2002,42.0515351934897
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),2002,26838399.684
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2002,1264.44667933356
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2002,69.045633164656
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2002,65.0462390690485
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2002,66.9607478619904
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2002,44.0539229100535
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),2002,20149733.206
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2002,1962.96178694351
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2002,73.7851709731152
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2002,68.6420488982096
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2002,71.0940062213322
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2003,38.2796172633804
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),2003,10173880.799
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2003,28653.8671033558
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2003,81.0450028255099
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2003,75.163707419552
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2003,78.0215195136406
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2003,42.8722269159261
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),2003,30642387.949
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2003,1332.78936552487
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2003,68.2315097925499
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2003,64.3573912971006
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2003,66.2181753248796
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),2003,3845893.598
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2003,518.951958982293
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2003,56.4745086219985
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2003,53.3030192541521
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2003,54.8820778891534
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2003,35.5885980732847
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),2003,6668953.04
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2003,743.200999884499
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2003,65.2319878950226
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2003,62.3035351843296
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2003,63.7170577507327
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2003,43.5623724002667
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),2003,26796494.351
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2003,1407.87505481814
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2003,69.3197968007219
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2003,65.3413256813098
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2003,67.2467038449455
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2003,46.4169345370384
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),2003,20127541.311
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2003,2181.08595446151
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2003,74.0187626018959
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2003,68.9229457753157
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2003,71.3533197958482
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2004,37.3650225817367
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),2004,10182122.089
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2004,31694.4102613267
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2004,81.4483696208723
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2004,75.584621526161
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2004,78.4330541272736
+High income,HIC,SL.UEM.NEET.ZS,"Share of youth not in education, employment or training, total (% of youth population)",2004,12.0649979063872
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2004,43.0011071058904
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),2004,30583650.701
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2004,1560.39578017615
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2004,68.5541072026211
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2004,64.6808460790634
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2004,66.5420769601283
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),2004,3829061.684
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2004,592.66755024631
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2004,57.1309133179656
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2004,53.9749675891662
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2004,55.5482568849604
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2004,34.5987739501084
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),2004,6649239.602
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2004,846.994794198556
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2004,65.5943935736385
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2004,62.6496424464411
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2004,64.0714812110335
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2004,43.6959612621557
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),2004,26754589.017
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2004,1651.07168545744
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2004,69.6286843302956
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2004,65.6498295672256
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2004,67.5560688998808
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2004,46.8688243506093
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),2004,20105349.415
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2004,2595.0891462929
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2004,74.3087268749361
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2004,69.2198400469262
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2004,71.6476587366725
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2005,37.0999079530948
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),2005,10190363.378
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2005,33295.5282217745
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2005,81.5330812624554
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2005,75.7121674492417
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2005,78.5384033320513
+High income,HIC,SL.UEM.NEET.ZS,"Share of youth not in education, employment or training, total (% of youth population)",2005,12.7666327597698
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2005,44.4509733224648
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),2005,30524913.454
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2005,1832.5293478577
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2005,68.8784302235944
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2005,64.9903108562954
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2005,66.8591799142224
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),2005,3812229.77
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2005,688.859812508195
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2005,57.8213108915283
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2005,54.6614752859083
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2005,56.237628925145
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2005,34.5373373488209
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),2005,6629526.164
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2005,966.93139656353
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2005,65.9721493527945
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2005,63.0025107350317
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2005,64.4365168251659
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2005,45.1799330733838
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),2005,26712683.684
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2005,1941.45714746174
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2005,69.9356864236627
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2005,65.9408230514946
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2005,67.8550971903674
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2005,48.8087047405818
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),2005,20083157.52
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2005,3095.98478470738
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2005,74.5753461997122
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2005,69.4689188733672
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2005,71.9055717443263
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2006,36.760483253257
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),2006,10198604.667
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2006,34919.6749300036
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2006,81.8354689567274
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2006,76.0323077565318
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2006,78.8483846681114
+High income,HIC,SL.UEM.NEET.ZS,"Share of youth not in education, employment or training, total (% of youth population)",2006,11.9361792870027
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2006,46.1797744873609
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),2006,30499760.206
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2006,2145.01566518131
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2006,69.2476970338526
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2006,65.3443748899771
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2006,67.2213937416093
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),2006,3795397.856
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2006,783.266005610004
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2006,58.5395899930651
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2006,55.3524155842957
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2006,56.9420120053853
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2006,35.5725522191729
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),2006,6609812.726
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2006,1126.10736819189
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2006,66.372270791594
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2006,63.3725504295457
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2006,64.8211348086923
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2006,46.9340479548575
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),2006,26704362.35
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2006,2276.73725468587
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2006,70.2887250683207
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2006,66.2792236713151
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2006,68.2013401817576
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2006,50.7051060852487
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),2006,20094549.624
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2006,3652.25334911503
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2006,74.914951640007
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2006,69.8008642950502
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2006,72.2426780201723
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2007,36.4376424331735
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),2007,10206845.957
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2007,37953.0334455438
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2007,82.0507400738654
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2007,76.300626837226
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2007,79.0890037750865
+High income,HIC,SL.UEM.NEET.ZS,"Share of youth not in education, employment or training, total (% of youth population)",2007,11.4732625327645
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2007,47.7366437322447
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),2007,30441476.958
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2007,2613.85831416227
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2007,69.6278924361815
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2007,65.6870270497657
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2007,67.5820828362138
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),2007,3778565.942
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2007,914.060406887269
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2007,59.2720295919916
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2007,56.03631112595
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2007,57.6495587682563
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2007,35.6391460414758
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),2007,6590099.288
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2007,1360.7425786098
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2007,66.7891077586967
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2007,63.7500185027761
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2007,65.217293729152
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2007,48.5222177534136
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),2007,26662911.016
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2007,2780.75144799455
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2007,70.6517149449803
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2007,66.6049554749964
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2007,68.5448456234683
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2007,52.6515450154892
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),2007,20072811.728
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2007,4493.65237669287
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2007,75.2558102304218
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2007,70.0950369982352
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2007,72.559205943795
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2008,35.5748433284224
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),2008,10215087.247
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2008,40116.2261505673
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2008,82.1559703224139
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2008,76.491516328087
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2008,79.2368249601959
+High income,HIC,SL.UEM.NEET.ZS,"Share of youth not in education, employment or training, total (% of youth population)",2008,11.7480516764288
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2008,47.4628087669879
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),2008,30383193.711
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2008,3086.45535576938
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2008,70.0045788829398
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2008,66.0181240693236
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2008,67.9352569055691
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),2008,3761734.028
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2008,1066.75078313999
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2008,60.0001509543535
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2008,56.6981424812906
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2008,58.3438715877498
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2008,36.4576116586983
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),2008,6570385.85
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2008,1516.92104177606
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2008,67.2141947146624
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2008,64.1277622382455
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2008,65.6173738886915
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2008,48.2337389713617
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),2008,26621459.683
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2008,3288.00379041815
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2008,71.0101546256773
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2008,66.9190751112964
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2008,68.8803018242686
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2008,51.9517333368893
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),2008,20051073.833
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2008,5443.19266403504
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2008,75.5747874721117
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2008,70.361145069317
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2008,72.8512528353544
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2009,33.7753824788927
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),2009,10223328.537
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2009,37307.3337788378
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2009,82.4254219101947
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2009,76.8042432082351
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2009,79.5269622088516
+High income,HIC,SL.UEM.NEET.ZS,"Share of youth not in education, employment or training, total (% of youth population)",2009,12.6357544029838
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2009,47.7944564436164
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),2009,30324910.461
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2009,2979.63774963515
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2009,70.3987383490578
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2009,66.3683701855313
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2009,68.3071720991309
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),2009,3744902.114
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2009,1057.70992162035
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2009,60.7052270136755
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2009,57.3247512428198
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2009,59.0089081988398
+Low income,LIC,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2009,60.6353302001953
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2009,36.3748761292258
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),2009,6550672.411
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2009,1520.38739661463
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2009,67.6528852035883
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2009,64.5209530924933
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2009,66.0325583535386
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2009,48.5799146015568
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),2009,26580008.347
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2009,3174.71771665529
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2009,71.3887662509057
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2009,67.2565769423564
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2009,69.2380413065953
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2009,52.4806315758878
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),2009,20029335.936
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2009,5205.20684713872
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2009,75.9201959399675
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2009,70.6588913146501
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2009,73.1727446810077
+High income,HIC,SP.REG.BRTH.ZS,Completeness of birth registration (%),2010,99.989244481529
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2010,33.4467500945562
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),2010,10231569.826
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2010,38836.6711310629
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2010,82.5742044342442
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2010,77.0163007729595
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2010,79.7073043437391
+High income,HIC,SL.UEM.NEET.ZS,"Share of youth not in education, employment or training, total (% of youth population)",2010,12.7420656563811
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2010,47.9873089655915
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),2010,30266627.214
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2010,3578.02212679251
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2010,70.7771368661096
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2010,66.693782227222
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2010,68.6586430382576
+Low income,LIC,SP.REG.BRTH.ZS,Completeness of birth registration (%),2010,48.9563831100881
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),2010,3728070.2
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2010,1162.62290367879
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2010,61.3732439874066
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2010,57.9093872124202
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2010,59.6343585236154
+Lower middle income,LMC,SP.REG.BRTH.ZS,Completeness of birth registration (%),2010,71.1852865680154
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2010,36.5802979039112
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),2010,6530958.973
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2010,1828.25209206876
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2010,68.087570945621
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2010,64.9078215014911
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2010,66.4430184463452
+Lower middle income,LMC,SL.UEM.NEET.ZS,"Share of youth not in education, employment or training, total (% of youth population)",2010,27.0783103552828
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2010,48.7686397923002
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),2010,26538557.014
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2010,3826.33532930538
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2010,71.7523312678103
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2010,67.5699681536255
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2010,69.5760568504998
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2010,52.5791762752953
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),2010,20007598.041
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2010,6300.08541246828
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2010,76.2364627116277
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2010,70.9095234771633
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2010,73.4553057573176
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2011,32.6381825995373
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),2011,10246305.09
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2011,41742.1587271303
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2011,82.8167546770983
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2011,77.2840944739079
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2011,79.9616979087947
+High income,HIC,SL.UEM.NEET.ZS,"Share of youth not in education, employment or training, total (% of youth population)",2011,13.4445409293763
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2011,50.0488765355121
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),2011,30208680.835
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2011,4167.51027632496
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2011,71.1633802357423
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2011,67.0276623692817
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2011,69.0186509418304
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),2011,3705667.56
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2011,852.049894522852
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2011,61.9984555384072
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2011,58.4529142249302
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2011,60.2180348159133
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2011,37.4879606034737
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),2011,6502076.78
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2011,2069.30548053248
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2011,68.5047426772596
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2011,65.2726019894336
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2011,66.8329875224034
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2011,50.8241206437785
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),2011,26503013.275
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2011,4510.25094099958
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2011,72.1273957793531
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2011,67.8957065381002
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2011,69.9264087012929
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2011,54.9616398879352
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),2011,20000936.495
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2011,7556.48341993734
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2011,76.5957516357865
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2011,71.2124471185108
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2011,73.7872626029355
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2012,31.3730429791975
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),2012,10261023.553
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2012,41524.8892400313
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2012,82.8820044869568
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2012,77.4527522441736
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2012,80.0797452975912
+High income,HIC,SL.UEM.NEET.ZS,"Share of youth not in education, employment or training, total (% of youth population)",2012,12.4519375742256
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2012,49.4774904435281
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),2012,30150734.454
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2012,4375.13354981074
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2012,71.5246863486153
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2012,67.3455350391811
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2012,69.3585735802206
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),2012,3683264.92
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2012,788.195782278989
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2012,62.5841624810065
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2012,58.9637879539189
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2012,60.7660515546114
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2012,40.1690445920751
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),2012,6473194.587
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2012,2138.96515283971
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2012,68.8978593743489
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2012,65.6143857424127
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2012,67.1992140143485
+Lower middle income,LMC,SL.UEM.NEET.ZS,"Share of youth not in education, employment or training, total (% of youth population)",2012,25.5959768974541
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2012,50.2020674489615
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),2012,26467469.534
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2012,4750.53774365643
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2012,72.4776639706879
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2012,68.2061546271146
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2012,70.2571156835323
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2012,53.3368791859103
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),2012,19994274.947
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2012,8031.9362100123
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2012,76.923540618371
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2012,71.5054478391584
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2012,74.0996648235619
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2013,31.7002243102821
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),2013,10275742.017
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2013,41805.7511152502
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2013,83.0373243033875
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2013,77.6695238814169
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2013,80.2666917718337
+High income,HIC,SL.UEM.NEET.ZS,"Share of youth not in education, employment or training, total (% of youth population)",2013,12.5409430075048
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2013,50.2069973810644
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),2013,30092788.074
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2013,4570.56379076939
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2013,71.8738786851306
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2013,67.6550263995166
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2013,69.6881617284656
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),2013,3660862.28
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2013,789.200761994007
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2013,63.1332908611134
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2013,59.4489793588462
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2013,61.2832679399394
+Low income,LIC,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2013,56.5955505371094
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2013,41.1668758765325
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),2013,6444312.394
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2013,2141.51831890159
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2013,69.2677953552696
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2013,65.9419564404867
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2013,67.5465362024671
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2013,50.9017832241902
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),2013,26431925.794
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2013,4971.54430517873
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2013,72.817657517391
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2013,68.5094780092913
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2013,70.578990527403
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2013,53.9144858397497
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),2013,19987613.4
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2013,8551.33613541085
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2013,77.2561749514316
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2013,71.7997486540994
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2013,74.4151832112109
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2014,31.0046419104765
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),2014,10290460.48
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2014,42455.8235365012
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2014,83.2789250808109
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2014,77.9331650938052
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2014,80.5190562079536
+High income,HIC,SL.UEM.NEET.ZS,"Share of youth not in education, employment or training, total (% of youth population)",2014,11.9187948879207
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2014,49.4636813194243
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),2014,30034841.696
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2014,4661.974204027
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2014,72.1891960803934
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2014,67.9390203259963
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2014,69.9889620313703
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),2014,3638459.64
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2014,821.336181323024
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2014,63.646086743761
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2014,59.9075742102401
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2014,61.7692179965817
+Low income,LIC,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2014,57.1473999023438
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2014,42.5020302558034
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),2014,6415430.202
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2014,2191.98587225912
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2014,69.608333031703
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2014,66.2459596066702
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2014,67.8685010902363
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2014,50.1339624278086
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),2014,26396382.056
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2014,5074.93248366245
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2014,73.123797126593
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2014,68.7872041559167
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2014,70.8721116909404
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2014,52.5556227727614
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),2014,19980951.854
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2014,8746.2657033762
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2014,77.5489997139162
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2014,72.0656944601304
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2014,74.6974461471773
+High income,HIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2015,28.5835645954604
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),2015,10305178.944
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2015,39847.261775534
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2015,83.123290297196
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2015,77.8453402744925
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2015,80.3981848777737
+High income,HIC,SL.UEM.NEET.ZS,"Share of youth not in education, employment or training, total (% of youth population)",2015,11.3914162947074
+Low & middle income,LMY,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2015,48.8861062837849
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),2015,29976895.316
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2015,4366.05109904441
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2015,72.4781246371502
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2015,68.2178815123588
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2015,70.2745688809921
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),2015,3616057.0
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2015,791.710026392794
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2015,64.1215783157637
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2015,60.3380415304169
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2015,62.2222076133754
+Low income,LIC,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2015,59.5775718688965
+Lower middle income,LMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2015,43.8094072482649
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),2015,6386548.009
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2015,2109.33450010224
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2015,69.9154968318559
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2015,66.5315156129472
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2015,68.1645708173366
+Middle income,MIC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2015,49.5247627047889
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),2015,26360838.316
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2015,4755.93561006956
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2015,73.4047760722846
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2015,69.0621880852013
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2015,71.1519453077381
+Upper middle income,UMC,EG.ELC.COAL.ZS,Electricity production from coal sources (% of total),2015,51.3719895949535
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),2015,19974290.307
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2015,8149.75183997258
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2015,77.8275101299389
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2015,72.3497307034654
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2015,74.9830840216775
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),2016,10317365.457
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2016,40475.1774636493
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2016,83.2836563943322
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2016,77.9853458248265
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2016,80.5473096641302
+High income,HIC,SL.UEM.NEET.ZS,"Share of youth not in education, employment or training, total (% of youth population)",2016,10.9531834388092
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),2016,29933491.501
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2016,4349.1472757469
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2016,72.7440877433821
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2016,68.4779447863122
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2016,70.5395002417484
+Low & middle income,LMY,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2016,84.6698226928711
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),2016,3592534.2
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2016,764.704885382735
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2016,64.5566121806226
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2016,60.7391744627814
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2016,62.6410379144215
+Low income,LIC,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2016,61.5438613891602
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),2016,6371614.779
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2016,2193.47120765322
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2016,70.1987970945658
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2016,66.7977742684956
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2016,68.4389960381744
+Lower middle income,LMC,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2016,81.2997512817383
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),2016,26340957.301
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2016,4745.70858008481
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2016,73.6647296969638
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2016,69.3194276024943
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2016,71.4125294360556
+Middle income,MIC,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2016,86.0083923339844
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),2016,19969342.522
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2016,8041.06232407941
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2016,78.08799771893
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2016,72.6178580540923
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2016,75.252182440651
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),2017,10317219.084
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2017,42118.2044042732
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2017,83.284658063271
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2017,78.068498004689
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2017,80.5903794834002
+High income,HIC,SL.UEM.NEET.ZS,"Share of youth not in education, employment or training, total (% of youth population)",2017,10.274670957025
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),2017,29866357.875
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2017,4718.39202030595
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2017,72.9916193900123
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2017,68.7287700829992
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2017,70.7913003087404
+Low & middle income,LMY,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2017,84.7279891967773
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),2017,3569829.2
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2017,834.490881739881
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2017,64.9553975529531
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2017,61.1143143841485
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2017,63.0285168696645
+Low income,LIC,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2017,63.069278717041
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),2017,6338639.602
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2017,2322.90688323402
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2017,70.4613091315577
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2017,67.041003532545
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2017,68.6919164614795
+Lower middle income,LMC,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2017,81.2964172363281
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),2017,26296528.675
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2017,5154.43109972778
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2017,73.9081628429166
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2017,69.5691205980234
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2017,71.6618805422667
+Middle income,MIC,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2017,86.0126037597656
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),2017,19957889.073
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2017,8834.5262262122
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2017,78.3359848081035
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2017,72.8979469323163
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2017,75.522241839414
+High income,HIC,SP.REG.BRTH.ZS,Completeness of birth registration (%),2018,99.9371008550389
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),2018,10319900.3
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2018,44571.4335819118
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2018,83.3819551533829
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2018,78.1726128344603
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2018,80.6904609791548
+High income,HIC,SL.UEM.NEET.ZS,"Share of youth not in education, employment or training, total (% of youth population)",2018,10.0579641948302
+Low & middle income,LMY,SP.REG.BRTH.ZS,Completeness of birth registration (%),2018,69.6490800232746
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),2018,29816266.142
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2018,4933.69796934306
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2018,73.2043072869996
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2018,68.9379591034225
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2018,71.0039497710484
+Low & middle income,LMY,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2018,86.2883377075195
+Low income,LIC,SP.REG.BRTH.ZS,Completeness of birth registration (%),2018,39.368180841827
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),2018,3547535.88
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2018,699.411435185585
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2018,65.3241002244223
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2018,61.4677772253742
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2018,63.3907771004242
+Low income,LIC,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2018,64.4895629882813
+Lower middle income,LMC,SP.REG.BRTH.ZS,Completeness of birth registration (%),2018,71.2607006332291
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),2018,6312992.3
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2018,2335.30312516721
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2018,70.6999977193081
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2018,67.2574959145555
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2018,68.9190229482207
+Lower middle income,LMC,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2018,85.0309600830078
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),2018,26268730.262
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2018,5415.61100632926
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2018,74.1165553440709
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2018,69.7752608078173
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2018,71.8708317568173
+Middle income,MIC,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2018,87.607536315918
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),2018,19955737.962
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2018,9448.6348536615
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2018,78.5375945579394
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2018,73.1151720964105
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2018,75.7359495426608
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),2019,10322761.5
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2019,44774.7750215677
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2019,83.5807481242099
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2019,78.3665849510435
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2019,80.8862524480768
+High income,HIC,SL.UEM.NEET.ZS,"Share of youth not in education, employment or training, total (% of youth population)",2019,10.0620433601448
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),2019,29763290.2
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2019,4993.61938118882
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2019,73.4033889516535
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2019,69.137248914034
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2019,71.2049080545178
+Low & middle income,LMY,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2019,82.7768173217773
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),2019,3524516.1
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2019,720.474279044071
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2019,65.6681099229014
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2019,61.8040404760166
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2019,63.7319949477722
+Low income,LIC,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2019,63.7252006530762
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),2019,6287473.6
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2019,2411.33492174599
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2019,70.9299213559482
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2019,67.4641085152019
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2019,69.1368212313025
+Lower middle income,LMC,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2019,79.8532562255859
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),2019,26238774.1
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2019,5487.84405800544
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2019,74.3129313309318
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2019,69.972585401015
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2019,72.0694392835072
+Middle income,MIC,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2019,83.8700866699219
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),2019,19951300.5
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2019,9548.20023835792
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2019,78.7251592470622
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2019,73.3272024342132
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2019,75.9402253347522
+High income,HIC,AG.LND.FRST.K2,Forest area (sq. km),2020,10325771.6
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2020,43282.4234611717
+High income,HIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2020,83.0104083283774
+High income,HIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2020,77.5939950927746
+High income,HIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2020,80.2105306378702
+High income,HIC,SL.UEM.NEET.ZS,"Share of youth not in education, employment or training, total (% of youth population)",2020,13.2090509760101
+Low & middle income,LMY,AG.LND.FRST.K2,Forest area (sq. km),2020,29711596.9
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2020,4759.77608177317
+Low & middle income,LMY,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2020,73.5192197367984
+Low & middle income,LMY,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2020,69.2617832284965
+Low & middle income,LMY,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2020,71.3261273958382
+Low & middle income,LMY,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2020,82.9354400634766
+Low income,LIC,AG.LND.FRST.K2,Forest area (sq. km),2020,3501893.7
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2020,703.733845480583
+Low income,LIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2020,65.9930095344335
+Low income,LIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2020,62.1275880246056
+Low income,LIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2020,64.0575295648766
+Lower middle income,LMC,AG.LND.FRST.K2,Forest area (sq. km),2020,6262077.9
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2020,2285.71110749433
+Lower middle income,LMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2020,71.1340499417826
+Lower middle income,LMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2020,67.6472308150582
+Lower middle income,LMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2020,69.3303443969452
+Lower middle income,LMC,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2020,81.263801574707
+Middle income,MIC,AG.LND.FRST.K2,Forest area (sq. km),2020,26209703.2
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2020,5237.02247349621
+Middle income,MIC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2020,74.4187396069895
+Middle income,MIC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2020,70.0882932792676
+Middle income,MIC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2020,72.1811046069178
+Middle income,MIC,SE.SEC.TCAQ.ZS,Trained teachers in secondary education (% of total teachers),2020,84.1147766113281
+Upper middle income,UMC,AG.LND.FRST.K2,Forest area (sq. km),2020,19947625.3
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2020,9166.46085400957
+Upper middle income,UMC,SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)",2020,78.739821664151
+Upper middle income,UMC,SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)",2020,73.3819698413822
+Upper middle income,UMC,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",2020,75.9769797728818
+High income,HIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2021,47886.7845890595
+High income,HIC,SL.UEM.NEET.ZS,"Share of youth not in education, employment or training, total (% of youth population)",2021,11.6423044341469
+Low & middle income,LMY,NY.GDP.PCAP.CD,GDP per capita (current US$),2021,5530.43855319337
+Low income,LIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2021,749.761380371283
+Lower middle income,LMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2021,2581.85719450806
+Middle income,MIC,NY.GDP.PCAP.CD,GDP per capita (current US$),2021,6102.00086882533
+Upper middle income,UMC,NY.GDP.PCAP.CD,GDP per capita (current US$),2021,10835.5231684532
