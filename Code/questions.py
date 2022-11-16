@@ -44,6 +44,15 @@ question_dict = {
         "explanation": "As you can see in this graph, inequality is big in Brazil.",
         "graph": None
     },
+
+    "question3":{
+        "prompt": "Hong Kong and Central African Republic has the highest and lowest life expectancy at birth respectively. What is the difference in life expectancy between the two countries? ",
+        "options": ["15 years", "20 years", "25 years", "30 years"],
+        "correct": 4,
+        "explanation": "Nahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh I am working on it",
+        "graph": life_expectancy
+
+    }
     
     ## Add more questions here
 }
@@ -58,6 +67,10 @@ def question2():
     put_buttons(["Next"], onclick=[question3])
 
 def question3():
+    make_question(**question_dict["question3"])
+    put_buttons(["Next"], onclick=[question4])
+
+def question4():
     #make_question(**question_dict["question3"])
     clear()
     put_text("In Development")

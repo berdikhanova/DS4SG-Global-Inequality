@@ -20,3 +20,23 @@ def brazil_gdp():
 
     return html
 
+def life_expectancy():
+    """
+    Plots world life expectancy
+    """
+    # Subsetting data
+    le_total = df[(df["Indicator Code"] == "SP.DYN.LE00.IN")& (df["Date"] == 2020)]
+    le_total = le_total.rename(columns={"value": "value_total"})
+
+    # Plotting
+    fig = px.choropleth(le_total, locations="Country Code",
+                    color="value_total", # lifeExp is a column of gapminder
+                    hover_name="Country Name", # column to add to hover information
+                    color_continuous_scale=px.colors.sequential.Plasma,
+                    title='Life Expectancy in 2020')
+    
+    html = fig.to_html(include_plotlyjs="require", full_html=False)
+    
+    return html
+
+
