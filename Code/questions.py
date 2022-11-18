@@ -10,7 +10,7 @@ from pywebio.platform import *
 # import visualizations
 from Code.visualizations import *
 
-def make_question_checkbox(prompt, options, correct, explanation, graph = False, next_question = None):
+def make_question_checkbox(prompt, options, correct, explanation, graph = False, df = None):
     # Clears the page
     clear()
 
@@ -24,11 +24,14 @@ def make_question_checkbox(prompt, options, correct, explanation, graph = False,
         put_text("Not quite")
 
     if graph:
-        put_html(graph())
+        if df:
+            put_html(graph(df))
+        else:
+            put_html(graph())
 
     put_text(explanation)
 
-def make_question_input(prompt, options, correct, explanation, graph = False, next_question = None):
+def make_question_input(prompt, options, correct, explanation, graph = False):
     # Clears the page
     clear()
 
@@ -49,19 +52,19 @@ def make_question_input(prompt, options, correct, explanation, graph = False, ne
 
 question_dict = {
     "question1": {
-        "prompt": "Has GDP per capita increased or decreased in Brazil?",
-        "options": ["Increased", "Decreased", "Stayed the same"],
+        "prompt": "If all you cared about was income, would you rather be in the bottom 10% of a rich country or in the top 10% of a poor country? ",
+        "options": ["Bottom 10% of a rich country", "Top 10% of a poor country"],
         "correct": 1,
-        "explanation": "As you can see in this graph, although there were some fluctutions, Brazil's GDP per capita has increased over time.",
-        "graph": brazil_gdp
+        "explanation": "The first is correct",
+        "graph": income_distribution
     },
 
     "question2": {
-        "prompt": "Is inequality big in Brazil?",
-        "options": ["Yes", "No"],
+        "prompt": "Has the average income share held by the richest 10% increased or decreased in the last 20 years",
+        "options": ["Increased", "Decreased", "Stayed the same"],
         "correct": 1,
-        "explanation": "As you can see in this graph, inequality is big in Brazil.",
-        "graph": None
+        "explanation": "It has decreased",
+        "graph": income_share
     },
 
     "question3":{
