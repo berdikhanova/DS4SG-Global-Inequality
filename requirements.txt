@@ -3,3 +3,6 @@ numpy
 pywebio
 matplotlib
 seaborn
+sys
+typing
+pandas
