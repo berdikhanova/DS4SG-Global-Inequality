@@ -55,15 +55,20 @@ question_dict = {
         "prompt": "If all you cared about was income, would you rather be in the bottom 10% of a rich country or in the top 10% of a poor country? ",
         "options": ["Bottom 10% of a rich country", "Top 10% of a poor country"],
         "correct": 1,
-        "explanation": "The first is correct",
+        "explanation": 
+        '''
+        Although we often discuss inequality within a country, the disparity between countries is usually much larger. The discrepancy between poor and rich countries is more prominent than any inequality within one country. This might be unintuitive, but if we care solely about having the highest income, then being a poor person in a rich country is much better than being a rich person in a poor country. 
+        Look at the graph above. We plotted the percentile of GDP per capita on the horizontal axis and the amount of GDP that would go to each person in a country if they received it proportionally to their income on the vertical axis. We plot two groups: the top 10% and the bottom 10% of earners in each country. Feel free to hover your mouse over the data points to see which country each dot represents and the income of that group. The two black lines show the top and bottom 10% of countries in terms of GDP per capita. 
+        If you hover your mouse around the line on the right, you will see the UK, which is in the 90th percentile of the wealthiest countries. The bottom 10% earners of their population would receive $12.306 if we divided their GDP proportionally to their earnings. On the other end, Uganda is in the 10th percentile of GDP per capita, and the wealthiest 10% population would get only $2.960. That's 4 times less!    
+        ''',
         "graph": income_distribution
     },
 
     "question2": {
         "prompt": "Has the average income share held by the richest 10% increased or decreased in the last 20 years",
         "options": ["Increased", "Decreased", "Stayed the same"],
-        "correct": 1,
-        "explanation": "It has decreased",
+        "correct": 2,
+        "explanation": "The last 20 years saw a reversal of a trend of increasing inequality. In the previous 20 years, the wealthiest 10% have received a smaller share of the country's total income. However, 2020 saw a big jumpy upward. Will inequality increase again?",
         "graph": income_share
     },
 
