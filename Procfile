@@ -1,1 +1,1 @@
-web: python app.py --port=$PORT
+web: python quiz_game.py --port=$PORT
