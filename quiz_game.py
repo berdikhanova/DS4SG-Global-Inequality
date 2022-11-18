@@ -34,11 +34,6 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
-    #start_server(main, debug=True, remote_access=True)
-    
-
-if __name__ == '__main__':
     import argparse
     from pywebio.platform.tornado_http import start_server as start_http_server
     from pywebio import start_server as start_ws_server
