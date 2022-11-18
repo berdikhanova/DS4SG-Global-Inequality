@@ -59,3 +59,32 @@ def birth_registration():
     html = fig.to_html(include_plotlyjs="require", full_html=False)
     
     return html
+
+def mau_share():
+    """
+    Share of youth not in education, employment or training, total (% of youth population) in Mauritius vs. OECD countries
+    """
+    # Subsetting data
+    mau_share = df[(df['Country Code'] == "MUS") | (df['Country Code'] == "OED")]
+    mau_share = mau_share[(mau_share['Indicator Code'] == 'SL.UEM.NEET.ZS') & (mau_share['Date'] > 2003)]
+
+    # Plotting
+    fig = px.line(mau_share, x="Date", y="value", labels = {"Date":"Year", "value":"Share of youth population","Country Name":"Country"},color = "Country Name", title='Share of youth not in education, employment or training, total (% of youth population)', markers = True)
+    
+    html = fig.to_html(include_plotlyjs="require", full_html=False)
+
+    return html
+
+def teachers_share():
+    """
+    Trained teachers in secondary education (% of total teachers) in least developed countries*
+    """
+    # Subsetting data
+    ldc_teachers = df[(df['Country Code'] == "LDC") & (df['Indicator Code'] == "SE.SEC.TCAQ.ZS")]
+
+    # Plotting
+    fig = px.bar(ldc_teachers, x='Date', y='value', text_auto='.3s', range_y=[0,100], labels = {"Date":"Years", "value":"Share of total teachers","Country Name":"Country"}, title='Trained teachers in secondary education (% of total teachers) in least developed countries*')
+    
+    html = fig.to_html(include_plotlyjs="require", full_html=False)
+
+    return html
