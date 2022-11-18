@@ -32,8 +32,7 @@ def main():
     question1()
     
 
-    
-
 if __name__ == '__main__':
-    main()
-    #start_server(main, debug=True, remote_access=True)
+    #main()
+    start_server(main, debug=True, remote_access=True)
+    
