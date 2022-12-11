@@ -6,22 +6,37 @@ from pywebio.output import *
 from pywebio.input import *
 from pywebio.session import *
 from pywebio.platform import *
+import random 
 
 # import visualizations
 from Code.visualizations import *
 
+score = 0 
+n_questions = 0
+
+def show_score(score):
+    put_markdown(f"## Score: {score}/{n_questions}")
+
 def make_question_checkbox(prompt, options, correct, explanation, graph = False, df = None):
     # Clears the page
+    global score
+    global n_questions
     clear()
-
+    show_score(score)
     # Creates a checkbox prompt
-    answer = checkbox(prompt, options = options)
+    answer = radio(prompt, options = options)
 
     # Checks if the answer is correct
-    if answer[0] == options[correct-1]:
-        put_text("That's right!")
+    if answer == options[correct-1]:
+        # Add one to score
+        score+=1
+        encouragement = random.choice(["That's right!", "You got it!", "Correct!", "Nice job!", "You're a genius!", "You're a rockstar!", "You're a superstar!", "You're a legend!", "You're a champion!", "You're a boss!", "You're a pro!", "You're a master!", "You're a guru!", "You're a wizard!", "You're a ninja!", "You're a superhero!", "You're a rockstar!", "You're a superstar!", "You're a legend!", "You're a champion!", "You're a boss!", "You're a pro!", "You're a master!", "You're a guru!", "You're a wizard!",])
+        put_markdown(f"**{encouragement}**")
     else:
         put_text("Not quite")
+
+    # Add one to number of total questions so far 
+    n_questions += 1
 
     if graph:
         if df:
@@ -40,9 +55,9 @@ def make_question_input(prompt, options, correct, explanation, graph = False):
 
     # Checks if the answer is correct
     if abs(answer-correct) <= 5 :
-        put_text("Good guess!, You are so close by ",abs(answer - correct), "points!")
+        put_text("Good guess!, You are so close by ",round(abs(answer - correct), 1), "points!")
     else:
-        put_text("Not quite, Your answer is ", abs(answer - correct), "points away.")
+        put_text("Not quite, Your answer is ", round(abs(answer - correct),1), "points away.")
 
     if graph:
         put_html(graph())
@@ -55,15 +70,20 @@ question_dict = {
         "prompt": "If all you cared about was income, would you rather be in the bottom 10% of a rich country or in the top 10% of a poor country? ",
         "options": ["Bottom 10% of a rich country", "Top 10% of a poor country"],
         "correct": 1,
-        "explanation": "The first is correct",
+        "explanation": 
+        '''
+        Although we often discuss inequality within a country, the disparity between countries is usually much larger. The discrepancy between poor and rich countries is more prominent than any inequality within one country. This might be unintuitive, but if we care solely about having the highest income, then being a poor person in a rich country is much better than being a rich person in a poor country. 
+        Look at the graph above. We plotted the percentile of GDP per capita on the horizontal axis and the amount of GDP that would go to each person in a country if they received it proportionally to their income on the vertical axis. We plot two groups: the top 10% and the bottom 10% of earners in each country. Feel free to hover your mouse over the data points to see which country each dot represents and the income of that group. The two black lines show the top and bottom 10% of countries in terms of GDP per capita. 
+        If you hover your mouse around the line on the right, you will see the UK, which is in the 90th percentile of the wealthiest countries. The bottom 10% earners of their population would receive $12.306 if we divided their GDP proportionally to their earnings. On the other end, Uganda is in the 10th percentile of GDP per capita, and the wealthiest 10% population would get only $2.960. That's 4 times less!    
+        ''',
         "graph": income_distribution
     },
 
     "question2": {
         "prompt": "Has the average income share held by the richest 10% increased or decreased in the last 20 years",
         "options": ["Increased", "Decreased", "Stayed the same"],
-        "correct": 1,
-        "explanation": "It has decreased",
+        "correct": 2,
+        "explanation": "The last 20 years saw a reversal of a trend of increasing inequality. In the previous 20 years, the wealthiest 10% have received a smaller share of the country's total income. However, 2020 saw a big jumpy upward. Will inequality increase again?",
         "graph": income_share
     },
 
