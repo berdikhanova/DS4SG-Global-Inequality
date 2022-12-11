@@ -64,6 +64,85 @@ def make_question_input(prompt, options, correct, explanation, graph = False):
 
     put_text(explanation)
 
+def last_page():
+    global score
+    clear()
+
+    put_markdown("## Thanks for playing!")
+
+    sheet_url = "https://docs.google.com/spreadsheets/d/1A_CfyV9tRbG71JAbPN2s94h22JuAprrEKcXGQC5RlgA/edit#gid=0"
+    url_1 = sheet_url.replace('/edit#gid=', '/export?format=csv&gid=')
+    df = pd.read_csv(url_1)
+    scores = df['score']
+
+    put_markdown(f"## Your final score was {score}, that's better than {round((scores < score).sum() / len(scores) * 100, 1)}% of players!")
+
+    put_markdown("## You can check out the [source code](https://github.com/berdikhanova/DS4SG-Global-Inequality) on GitHub.")
+
+    put_button("Play again", question1)
+
+score_infinite = 0
+
+def restart():
+    global score_infinite
+    score_infinite = 0
+    infinite_mode()
+
+def infinite_mode():
+    global score_infinite
+    df_raw = pd.read_csv("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/Assignment/Data/Final/indicators.csv?raw=true")
+    correct = True
+    old_country = df_raw.sample()["Country Name"].values[0]
+    while correct:
+        clear()
+        put_markdown(f"## Score: {score_infinite}")
+        # random country
+
+        while True:
+            try:
+                # old country
+                        # Random indicator
+                indicator = df_raw.sample()["Indicator Name"].values[0]
+                # latest date available for each country
+                df = df_raw[df_raw["Indicator Name"] == indicator]
+                df = df.groupby("Country Name").apply(lambda x: x[x["Date"] == x["Date"].max()]).reset_index(drop=True)
+                old_country_indicator = df[df["Country Name"] == old_country]["value"].values[0]
+            except:
+                continue
+            break
+
+        put_markdown(f"**{old_country}** has a {indicator} of {round(old_country_indicator, 2)}.")
+
+        # random country
+        country = df.sample()["Country Name"].values[0]
+
+        put_markdown(f"Is that higher or lower than **{country}**?")
+
+        # correct answer is the country with the highest GDP per capita
+        
+        country_indicator = df[df["Country Name"] == country]["value"].values[0]
+        correct_answer = "Lower" if old_country_indicator < country_indicator else "Higher"
+
+        answer = radio("", options=["Higher", "Lower"])
+
+        if answer != correct_answer:
+            correct = False
+            put_markdown(f"Sorry, but that's wrong!")
+            put_markdown(f"{old_country} has a {indicator} of {round(old_country_indicator, 2)}, and {country} has a {indicator} of {round(country_indicator, 2)}")
+
+            put_markdown("# Final Score: " + str(score_infinite))
+
+            score_infinite = 0
+            put_button("Play again", restart)
+        else:
+            score_infinite += 1
+            put_markdown(f"Answer {answer} is Correct!")
+            put_markdown(f"{old_country} has a {indicator} of {old_country_indicator}, and {country} has a {indicator} of {country_indicator}")
+        
+        old_country = country
+
+    
+
 
 question_dict = {
     "question1": {
@@ -147,7 +226,7 @@ def question7():
 
 def question8():
     make_question_input(**question_dict["question8"])
-    put_buttons(["Next"], onclick=[question5])
+    put_buttons(["Next"], onclick=[last_page])
 
 def question5():
     #make_question(**question_dict["question3"])

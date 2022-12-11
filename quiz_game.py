@@ -30,7 +30,11 @@ from Code.questions import *
 
 def main():
 
-    question1()
+    put_markdown('# Welcome to the Global Inequality Quiz Game!')
+    put_markdown('## Choose your Game Mode')
+    
+    put_button('Normal Mode', onclick=question1)
+    put_button('Infinite Mode', onclick= infinite_mode)
     
     
 
