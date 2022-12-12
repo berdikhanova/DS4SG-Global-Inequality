@@ -64,6 +64,37 @@ def make_question_input(prompt, options, correct, explanation, graph = False):
 
     put_text(explanation)
 
+
+def make_question_elephant(prompt, options, correct, explanation, graph = False):
+    # Clears the page
+    global score
+    global n_questions
+    clear()
+    show_score(score)
+    # Creates a checkbox prompt
+    put_image('')
+    answer = radio(prompt, options = options)
+
+    # Checks if the answer is correct
+    if answer == options[correct-1]:
+        # Add one to score
+        score+=1
+        encouragement = random.choice(["That's right!", "You got it!", "Correct!", "Nice job!", "You're a genius!", "You're a rockstar!", "You're a superstar!", "You're a legend!", "You're a champion!", "You're a boss!", "You're a pro!", "You're a master!", "You're a guru!", "You're a wizard!", "You're a ninja!", "You're a superhero!", "You're a rockstar!", "You're a superstar!", "You're a legend!", "You're a champion!", "You're a boss!", "You're a pro!", "You're a master!", "You're a guru!", "You're a wizard!",])
+        put_markdown(f"**{encouragement}**")
+    else:
+        put_text("Not quite")
+
+    # Add one to number of total questions so far 
+    n_questions += 1
+
+    if graph:
+        if df:
+            put_html(graph(df))
+        else:
+            put_html(graph())
+
+    put_text(explanation)
+
 def last_page():
     global score
     clear()
