@@ -31,9 +31,9 @@ def make_question_checkbox(prompt, options, correct, explanation, graph = False,
         # Add one to score
         score+=1
         encouragement = random.choice(["That's right!", "You got it!", "Correct!", "Nice job!", "You're a genius!", "You're a rockstar!", "You're a superstar!", "You're a legend!", "You're a champion!", "You're a boss!", "You're a pro!", "You're a master!", "You're a guru!", "You're a wizard!", "You're a ninja!", "You're a superhero!", "You're a rockstar!", "You're a superstar!", "You're a legend!", "You're a champion!", "You're a boss!", "You're a pro!", "You're a master!", "You're a guru!", "You're a wizard!",])
-        put_markdown(f"**{encouragement}**")
+        put_markdown(f"**{encouragement}**").style('text-align: center;')
     else:
-        put_text("Not quite")
+        put_text("Not quite").style('text-align: center;')
 
     # Add one to number of total questions so far 
     n_questions += 1
@@ -44,7 +44,7 @@ def make_question_checkbox(prompt, options, correct, explanation, graph = False,
         else:
             put_html(graph())
 
-    put_text(explanation)
+    put_text(explanation).style('text-align: center;')
 
 def make_question_input(prompt, options, correct, explanation, graph = False):
     # Clears the page
@@ -63,6 +63,7 @@ def make_question_input(prompt, options, correct, explanation, graph = False):
         put_html(graph())
 
     put_text(explanation)
+
 
 def last_page():
     global score
@@ -141,7 +142,7 @@ def infinite_mode():
         
         old_country = country
 
-    
+ 
 
 
 question_dict = {
