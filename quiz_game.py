@@ -27,7 +27,6 @@ from Code.questions import *
 #@use_scope('score', clear=True)
 
 
-
 def main():
     put_image("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/final_assignment/Quizality_logo.png?raw=true", width = '250px')
     put_markdown('# Welcome to the Quizality!').style( 'text-align: center; margin: auto;  width: 80%; font-size: 40px') 
