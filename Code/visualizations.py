@@ -98,6 +98,34 @@ def income_share():
     
     return html
 
+def tree_map():
+    df = df[df["Indicator Name"] == "GDP per capita (current US$)"]
+    df = df.groupby("Country Name").apply(lambda x: x[x["Date"] == x["Date"].max()]).reset_index(drop=True)
+    info_df = pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Data/Final/countries.csv")
+    # merge 
+    df = df.merge(info_df, left_on="Country Code", right_on="iso_alpha", how = "inner")
+
+    # Highest gdp per capita
+    df = df.sort_values("value", ascending=False)
+    highest = df.head(1)['value'].values[0]
+    # Cumulative sum of gdp per capita
+    df = df.sort_values("value", ascending=True)
+    df['cumsum'] = df['value'].cumsum()
+
+    lowest_df = df[df['cumsum']< highest]
+    lowest_df['Highest'] = "Monaco"
+
+    fig = px.treemap(lowest_df, path=['Highest', 'Country Name'], values='value',
+                  color='continent', 
+                  color_discrete_sequence= px.colors.qualitative.Set2
+            )
+    fig.update_layout(margin = dict(t=50, l=25, r=25, b=25))
+    fig.data[0].hovertemplate = '%{label}<br>Yearly Income ($): %{value}<br>Continent: %{customdata[0]}'
+    
+    html = fig.to_html(include_plotlyjs="require", full_html=False)
+    
+    return html
+
 def life_expectancy():
     """
     Plots world life expectancy
@@ -163,6 +191,43 @@ def teachers_share():
     # Plotting
     fig = px.bar(ldc_teachers, x='Date', y='value', text_auto='.3s', range_y=[0,100], labels = {"Date":"Years", "value":"Share of total teachers","Country Name":"Country"}, title='Trained teachers in secondary education (% of total teachers) in least developed countries*')
     
+    html = fig.to_html(include_plotlyjs="require", full_html=False)
+
+    return html
+
+
+def gdp_per_capita():
+    df = df[df["Indicator Name"] == "GDP per capita (current US$)"]
+    df = df.groupby("Country Name").apply(lambda x: x[x["Date"] == x["Date"].max()]).reset_index(drop=True)
+    # log values
+    df["log_value"] = np.log10(df["value"])
+    # Figure size
+
+    fig = px.choropleth(
+        df, locations="Country Code",
+        color="log_value", 
+        hover_name="Country Name", # column to add to hover information
+        hover_data=["value"],
+        color_continuous_scale=px.colors.sequential.Plasma,
+        title='GDP per capita in the World',
+        labels={'log_value':'Log of GDP per capita (current US$)', 'value':'GDP per capita (current US$)'},
+        )
+
+    fig.update_layout(height=600, 
+                        width=1000,
+                        coloraxis_colorbar=dict(
+                            #len=0.75,
+                            title='GDP per capita (current US$)', 
+                            tickvals = [3, 4, 5],
+                            ticktext = ['1k', '10k', '100k'],
+                            yanchor="bottom",
+                            y=0.1,
+                            xanchor="left",
+                            x=0.01,
+                            len = .4),
+                        margin=dict(l=10, r=10, t=50, b=10)
+                    )
+
     html = fig.to_html(include_plotlyjs="require", full_html=False)
 
     return html
