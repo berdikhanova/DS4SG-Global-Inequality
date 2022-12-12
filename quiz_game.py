@@ -27,12 +27,11 @@ from Code.questions import *
 #@use_scope('score', clear=True)
 
 
-
 def main():
 
     put_markdown('# Welcome to the Global Inequality Quiz Game!')
     put_markdown('## Choose your Game Mode')
-    
+
     put_button('Normal Mode', onclick=question1)
     put_button('Infinite Mode', onclick= infinite_mode)
     

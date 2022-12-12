@@ -17,6 +17,15 @@ n_questions = 0
 def show_score(score):
     put_markdown(f"## Score: {score}/{n_questions}")
 
+def explanatory_page(topic, text, graph = False):
+    clear()
+    put_markdown(f"## {topic}")
+    put_text(text)
+    if graph:
+        put_html(graph())
+    
+
+
 def make_question_checkbox(prompt, options, correct, explanation, graph = False, df = None):
     # Clears the page
     global score
@@ -72,10 +81,11 @@ def make_question_elephant(prompt, options, correct, explanation, graph = False)
     clear()
     show_score(score)
     # Creates a checkbox prompt
-    put_image('')
+    put_image('https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Resources/elephant.png')
     answer = radio(prompt, options = options)
 
     # Checks if the answer is correct
+    clear()
     if answer == options[correct-1]:
         # Add one to score
         score+=1
@@ -87,30 +97,10 @@ def make_question_elephant(prompt, options, correct, explanation, graph = False)
     # Add one to number of total questions so far 
     n_questions += 1
 
-    if graph:
-        if df:
-            put_html(graph(df))
-        else:
-            put_html(graph())
+    put_image('https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Resources/elephant_answer.png')
 
     put_text(explanation)
 
-def last_page():
-    global score
-    clear()
-
-    put_markdown("## Thanks for playing!")
-
-    sheet_url = "https://docs.google.com/spreadsheets/d/1A_CfyV9tRbG71JAbPN2s94h22JuAprrEKcXGQC5RlgA/edit#gid=0"
-    url_1 = sheet_url.replace('/edit#gid=', '/export?format=csv&gid=')
-    df = pd.read_csv(url_1)
-    scores = df['score']
-
-    put_markdown(f"## Your final score was {score}, that's better than {round((scores < score).sum() / len(scores) * 100, 1)}% of players!")
-
-    put_markdown("## You can check out the [source code](https://github.com/berdikhanova/DS4SG-Global-Inequality) on GitHub.")
-
-    put_button("Play again", question1)
 
 score_infinite = 0
 
@@ -227,20 +217,84 @@ question_dict = {
         "correct": 41.72,
         "explanation": "According to the International Labour Organization and the World Bank, youth unemployment is an important policy issue for many economies. Now more than ever, young men and women face increasing uncertainty in their hopes of undergoing a satisfactory transition in the labor market, and that effect is enhanced in developing markets. While underemployment and unemployment in the 20s were proven to increase depression rates and suicide rates, the effect of generational unemployment is yet to be studied. According to the economist at the World Bank, unemployed or underemployed youth are less able to contribute effectively to national development and have fewer opportunities to exercise their rights as citizens. They have less to spend as consumers, less to invest as savers, and often have no voice to bring about change in their lives and communities. As seen on the graph, almost 42% of the youth in Mauritius are not participating in education or labor as of 2020, compared to the OECD’s average of 15%. We can also see a rapid increase in this indicator in 2020 - the same trend can be observed in other developing countries, like the Dominican Republic, where the number jumped from roughly 25% to 38% in the same time period. While we do see a slight increase in OECD’s average, the rapid jumps in this indicator in developing countries once again illustrate the striking effect of the pandemic on the developing world.",
         "graph": mau_share
-    }
+    },
 
+    "question9":{
+        "prompt":"Is comparing GDP per capita of countries the best way to measure inequality?",
+        "options": ["Yes", "No"],
+        "correct": 2,
+        "explanation": """
+        Comparing GDP per capita of different countries can be a useful way to compare their relative levels of economic output and wealth. However, it is important to note that GDP per capita is not a perfect measure of a country's wealth or well-being, and it should not be considered the sole measure of inequality.
+        There are several reasons why comparing GDP per capita is not the best measure of inequality. First, GDP per capita only considers the economic output of a country and does not take into account other factors that can affect a person's quality of life, such as access to education, healthcare, and other public services.
+        """,
+        "graph": None
+    },
 
-    
+    "question10":{
+        "prompt":"What do you think this graph shows?",
+        "options": [
+            "The number of doctors working in disaster relief over the last 30 years", 
+            "Predicted fluctuations in population for the next 30 years", 
+            "The increase in real income from different percentiles of the world population over the last 30 years",
+            "Proportion of people with access to a green space within 2km of their household, at different percentiles of income"],
+        "correct": 3,
+        "explanation": """
+        The graph shows the increase in real income for different percentiles of income in the world from 1988 to 2008. The
+horizontal axis represents the income distribution, from poorest to richest. The 99th percentile (on the right of the graph) shows the richest 1%. We see that economic development affected people very differently. The main beneficiaries (in terms of relative change) were the global middle class, mainly due to the economic growth of China, India, and Eastern Europe.
+        """,
+        "graph": None
+    },
+
+    "question11":{
+        "prompt":"Becky is the average person in Monaco, earning $186,000 per year. If we summed up the salaries of one average person from each of the poorest countries in the world, how many countries would we have to go through until having the same salary as Becky?",
+        "options": NUMBER,
+        "correct": 84,
+        "explanation": """
+        If we added up the salaries from one person from each of the lowest income countries in the world, we would need to go through 84 countries. This shows how vast the difference in earnings can be across countries. Usually, we talk about the difference between specific individuals, which is even greater, but the inequality in different regions of the world is also extremely high. 
+In the chart above, you see the proportion that each country would make-up in order to achieve Becky's yearly income. Note in the chat that the colors represent the continents. Do you see any patterns? 
+
+        """,
+        "graph": tree_map
+    },
     ## Add more questions here
 }
 
+explanations_dict = {
+    "gdp_per_capita": """
+    GDP per capita is a measure of a country's economic output per person. It is calculated by dividing a country's gross domestic product (GDP) by its population. GDP is the total value of goods and services produced by a country in a given year.
+GDP per capita is often used as an indicator of a country's standard of living and economic well-being. Countries with higher GDP per capita are generally considered to be wealthier and have higher living standards than countries with lower GDP per capita.
+However, GDP per capita is not a perfect measure of a country's wealth or well-being. It only considers the economic output of a country and does not take into account other factors that can affect a person's quality of life, such as access to education, healthcare, and other public services. Additionally, GDP per capita does not account for income inequality within a country, so two countries with the same GDP per capita may have very different levels of inequality.
+GDP per capita can also be affected by a variety of other factors, such as a country's natural resources, level of industrialization, and trade policies. For these reasons, GDP per capita should not be considered the sole measure of a country's wealth or well-being.
+In terms of global inequality, GDP per capita can be used as a rough indicator of the relative wealth of different countries. However, it is important to consider other factors and not rely solely on GDP per capita when comparing the wealth of different countries.
+                    """
+}
 
+# Income in poor v rich countries
 def question1():
     make_question_checkbox(**question_dict["question1"])
     put_buttons(["Next"], onclick=[question2])
 
+#income increased or decreased
 def question2():
     make_question_checkbox(**question_dict["question2"])
+    put_buttons(["Next"], onclick=[explain_gdp])
+
+
+def explain_gdp():
+    explanatory_page("GDP per capita", explanations_dict["gdp_per_capita"], graph = gdp_per_capita)
+    put_button("Test my knowledge!", onclick=question9)
+
+# gdp per capita
+def question9():
+    make_question_checkbox(**question_dict["question9"])
+    put_buttons(["Next"], onclick=[question10])
+
+def question10():
+    make_question_elephant(**question_dict["question10"])
+    put_buttons(["Next"], onclick=[question11])
+
+def question11():
+    make_question_input(**question_dict["question11"])
     put_buttons(["Next"], onclick=[question3])
 
 def question3():
@@ -259,8 +313,31 @@ def question8():
     make_question_input(**question_dict["question8"])
     put_buttons(["Next"], onclick=[last_page])
 
+
 def question5():
     #make_question(**question_dict["question3"])
     clear()
     put_text("In Development")
+
+def last_page():
+    global score
+    global n_questions
+    clear()
+
+    put_markdown("## Thanks for playing!")
+
+    sheet_url = "https://docs.google.com/spreadsheets/d/1A_CfyV9tRbG71JAbPN2s94h22JuAprrEKcXGQC5RlgA/edit#gid=0"
+    url_1 = sheet_url.replace('/edit#gid=', '/export?format=csv&gid=')
+    df = pd.read_csv(url_1)
+    scores = df['score']
+
+    put_markdown(f"## Your final score was {score}, that's better than {round((scores < score).sum() / len(scores) * 100, 1)}% of players!")
+
+    put_markdown("## You can check out the [source code](https://github.com/berdikhanova/DS4SG-Global-Inequality) on GitHub.")
+
+    score = 0
+    n_questions = 0
+    put_button("Play again", question1)
+
+
     

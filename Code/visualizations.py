@@ -1,6 +1,7 @@
 import plotly.express as px
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
 df = pd.read_csv("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/Assignment/Data/Final/indicators.csv?raw=true")
 df2 = pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/Assignment/Data/Final/df_countries.csv")
@@ -99,20 +100,20 @@ def income_share():
     return html
 
 def tree_map():
-    df = df[df["Indicator Name"] == "GDP per capita (current US$)"]
-    df = df.groupby("Country Name").apply(lambda x: x[x["Date"] == x["Date"].max()]).reset_index(drop=True)
+    new_df = df[df["Indicator Name"] == "GDP per capita (current US$)"]
+    new_df = new_df.groupby("Country Name").apply(lambda x: x[x["Date"] == x["Date"].max()]).reset_index(drop=True)
     info_df = pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Data/Final/countries.csv")
     # merge 
-    df = df.merge(info_df, left_on="Country Code", right_on="iso_alpha", how = "inner")
+    new_df = new_df.merge(info_df, left_on="Country Code", right_on="iso_alpha", how = "inner")
 
     # Highest gdp per capita
-    df = df.sort_values("value", ascending=False)
-    highest = df.head(1)['value'].values[0]
+    new_df = new_df.sort_values("value", ascending=False)
+    highest = new_df.head(1)['value'].values[0]
     # Cumulative sum of gdp per capita
-    df = df.sort_values("value", ascending=True)
-    df['cumsum'] = df['value'].cumsum()
+    new_df = new_df.sort_values("value", ascending=True)
+    new_df['cumsum'] = new_df['value'].cumsum()
 
-    lowest_df = df[df['cumsum']< highest]
+    lowest_df = new_df[new_df['cumsum']< highest]
     lowest_df['Highest'] = "Monaco"
 
     fig = px.treemap(lowest_df, path=['Highest', 'Country Name'], values='value',
@@ -197,14 +198,14 @@ def teachers_share():
 
 
 def gdp_per_capita():
-    df = df[df["Indicator Name"] == "GDP per capita (current US$)"]
-    df = df.groupby("Country Name").apply(lambda x: x[x["Date"] == x["Date"].max()]).reset_index(drop=True)
+    new_df = df[df["Indicator Name"] == "GDP per capita (current US$)"]
+    new_df = new_df.groupby("Country Name").apply(lambda x: x[x["Date"] == x["Date"].max()]).reset_index(drop=True)
     # log values
-    df["log_value"] = np.log10(df["value"])
+    new_df["log_value"] = np.log10(new_df["value"])
     # Figure size
 
     fig = px.choropleth(
-        df, locations="Country Code",
+        new_df, locations="Country Code",
         color="log_value", 
         hover_name="Country Name", # column to add to hover information
         hover_data=["value"],
