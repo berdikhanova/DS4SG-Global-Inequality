@@ -239,20 +239,19 @@ question_dict = {
             "Proportion of people with access to a green space within 2km of their household, at different percentiles of income"],
         "correct": 3,
         "explanation": """
-        The graph shows the increase in real income for different percentiles of income in the world from 1988 to 2008. The
-horizontal axis represents the income distribution, from poorest to richest. The 99th percentile (on the right of the graph) shows the richest 1%. We see that economic development affected people very differently. The main beneficiaries (in terms of relative change) were the global middle class, mainly due to the economic growth of China, India, and Eastern Europe.
+        The graph, created by Branko Milanovic and published in 2013, shows the increase in real income for different percentiles of income in the world from 1988 to 2008. The horizontal axis represents the income distribution, from poorest to richest. The 99th percentile (on the right of the graph) shows the richest 1%. We see that economic development affected people very differently. One of the main beneficiaries (in terms of relative change) were the global middle class, mainly due to the economic growth of China, India, and Eastern Europe. The very richest also had a huge boost in income, while the very poor are even poorer today. Interestingly, the 60th to 90th percentile of the population (the middle class in richer countries) did not grow their income very much. 
+        The graph highlights the uneven nature of economic development and the widening gap between the very rich and the very poor, but also shows a conversion in the "middle" section of the population, as previously poor countries develop. 
         """,
         "graph": None
     },
 
     "question11":{
-        "prompt":"Becky is the average person in Monaco, earning $186,000 per year. If we summed up the salaries of one average person from each of the poorest countries in the world, how many countries would we have to go through until having the same salary as Becky?",
+        "prompt":"Philippe is the average person in Monaco, earning $186,000 per year. If we summed up the salaries of one average person from each of the poorest countries in the world, how many countries would we have to go through until having the same salary as Philippe?",
         "options": NUMBER,
         "correct": 84,
         "explanation": """
         If we added up the salaries from one person from each of the lowest income countries in the world, we would need to go through 84 countries. This shows how vast the difference in earnings can be across countries. Usually, we talk about the difference between specific individuals, which is even greater, but the inequality in different regions of the world is also extremely high. 
-In the chart above, you see the proportion that each country would make-up in order to achieve Becky's yearly income. Note in the chat that the colors represent the continents. Do you see any patterns? 
-
+        In the chart above, you see the proportion that each country would make-up in order to achieve Philippe's yearly income. Note in the chat that the colors represent the continents. Do you see any patterns? 
         """,
         "graph": tree_map
     },
