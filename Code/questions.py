@@ -110,9 +110,10 @@ def restart():
     score_infinite = 0
     infinite_mode()
 
+df_raw = pd.read_csv("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/Assignment/Data/Final/indicators.csv?raw=true")
+
 def infinite_mode():
     global score_infinite
-    df_raw = pd.read_csv("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/Assignment/Data/Final/indicators.csv?raw=true")
     correct = True
     old_country = df_raw.sample()["Country Name"].values[0]
     while correct:
@@ -155,7 +156,7 @@ def infinite_mode():
             put_markdown("# Final Score: " + str(score_infinite))
 
             score_infinite = 0
-            put_button("Play again", restart)
+            put_button("Play again", first_page)
         else:
             score_infinite += 1
             put_markdown(f"Answer {answer} is Correct!")
