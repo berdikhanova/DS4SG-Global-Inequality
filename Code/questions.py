@@ -327,9 +327,9 @@ def first_page():
     put_markdown('# Meet Our Team!').style( 'text-align: center; margin: auto;  width: 80%; font-size: 40px')
     put_image("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/final_assignment/team_photo.png?raw=true", width='500px').style( 'display: block; margin-left: auto;  margin-right: auto;  width: 60%;')
     put_markdown('Are You Ready To Play?').style( 'text-align: center; margin: auto;  width: 80%; font-size: 40px') 
-    put_text('# In this game... there are two modes.........').style('text-align: center;')
+    put_text('# In this game, there are two modes.........').style('text-align: center;')
     put_markdown('## Choose your Game Mode').style('text-align: center;')
-    put_buttons(['Normal Mode', 'Infinite Mode'], onclick=[question14, infinite_mode]).style('text-align: center;')
+    put_buttons(['Normal Mode', 'Infinite Mode'], onclick=[question1, infinite_mode]).style('text-align: center;')
 
 # Income in poor v rich countries
 def question1():
