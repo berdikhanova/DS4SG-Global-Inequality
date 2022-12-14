@@ -3,7 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 from bubbly.bubbly import bubbleplot 
-from plotly.offline import iplot
 from plotly.subplots import make_subplots
 import plotly.graph_objs as go
 
@@ -11,6 +10,8 @@ import plotly.graph_objs as go
 
 df = pd.read_csv("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/Assignment/Data/Final/indicators.csv?raw=true")
 df2 = pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/Assignment/Data/Final/df_countries.csv")
+df_final =  pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Data/Final/df_final.csv")
+
 
 # Plot birth registration in Brazil over time with plotly express
 
@@ -134,16 +135,17 @@ def tree_map():
     
     return html
 
+# Health Section
 def life_expectancy():
     """
     Plots world life expectancy
     """
     # Subsetting data
-    le_total = df[(df["Indicator Code"] == "SP.DYN.LE00.IN")& (df["Date"] == 2020)]
-    le_total = le_total.rename(columns={"value": "Average Life Expectancy"})
+    df = df_final[(df_final["Indicator Code"] == "SP.DYN.LE00.IN")& (df_final["Date"] == 2020)]
+    df = df.rename(columns={"value": "Average Life Expectancy"})
 
     # Plotting
-    fig = px.choropleth(le_total, locations="Country Code",
+    fig = px.choropleth(df, locations="Country Code",
                     color="Average Life Expectancy", 
                     hover_name="Country Name", # column to add to hover information
                     color_continuous_scale=px.colors.sequential.Plasma,
@@ -153,29 +155,26 @@ def life_expectancy():
     
     return html
 
-
-# Health Section
 def life_expectancy_sub():
     """
-    Plots world life expectancy
+    Plots world life expectancy vs gdp per capita
     """
     # Subsetting data
-    df_health_countries = pd.read_csv('/Users/norika_machome/GitHub/DS4SG-Global-Inequality/Data/Final/Health/health_countries.csv')
-    df_continent =  pd.read_csv("https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.csv")
-    df_continent = df_continent[['alpha-3','region','sub-region']]
-    df_health_countries = df_health_countries.merge(df_continent, left_on='Country Code', right_on='alpha-3')
-    df_health_countries_gdp = df_health_countries[df_health_countries['Indicator Name']=='GDP per capita (current US$)']
-    df_health_countries_lifeexp = df_health_countries[df_health_countries['Indicator Name']=='Life expectancy at birth, total (years)']
-    df_health_countries_pop = df_health_countries[df_health_countries['Indicator Name']=='Population, total']
-    df_health_gdp_lifeexp = df_health_countries_gdp.merge(df_health_countries_lifeexp, on = ['Date', 'Country Code'])
-    df_health_gdp_lifeexp_pop = df_health_gdp_lifeexp.merge(df_health_countries_pop, on = ['Date', 'Country Code'])
-    df_health_gdp_lifeexp_pop = df_health_gdp_lifeexp_pop[['Country Name_x', 'Country Code', 'Date', 'value_x','value_y','value', 'region_x', 'sub-region_x']].sort_values(by='Date')
+    df = df_final[~df_final.continent.isna()]
 
-    fig = px.scatter(df_health_gdp_lifeexp_pop, x="value_x", y="value_y", animation_frame="Date", animation_group="Country Name_x",
-           size="value", color="region_x", hover_name="Country Name_x",
-           log_x=True, size_max=55, range_x=[50,100000], range_y=[25,90]).update_layout(
-           xaxis_title="GDP per Capita (Log Scale)", yaxis_title="Life Expectancy"
-)
+    df_gdp = df[df['Indicator Name']=='GDP per capita (current US$)']
+    df_lifeexp = df[df['Indicator Name']=='Life expectancy at birth, total (years)']
+    df_pop = df[df['Indicator Name']=='Population, total']
+
+    df_merged = df_gdp.merge(df_lifeexp, on = ['Date', 'Country Code'])
+    df_merged = df_merged.merge(df_pop, on = ['Date', 'Country Code']).drop(columns=[col for col in df_merged if col not in ['Country Code','Indicator Name_x', 'Date', 'value_x', 'Indicator Name_y', 'value_y', 'Country Name', 'Indicator Code','value','continent']])
+    df_merged
+
+    fig = px.scatter(df_merged, x="value_x", y="value_y", animation_frame="Date", animation_group="Country Name",
+               size="value", color="continent", hover_name="Country Name",
+               log_x=True, size_max=55, range_x=[50,100000], range_y=[25,90]).update_layout(
+        xaxis_title="GDP per Capita (Log Scale)", yaxis_title="Life Expectancy")
+
     #fig.layout.updatemenus[0].buttons[0].args[1]["frame"]["duration"] = 50
     html = fig.to_html(include_plotlyjs="require", full_html=False)
     
@@ -183,15 +182,13 @@ def life_expectancy_sub():
 
 def birth_registration():
     """
-    Plots birth registration
+    Plots birth registration box chart
     """
     # Subsetting data
-    df_health_countries = pd.read_csv('/Users/norika_machome/GitHub/DS4SG-Global-Inequality/Data/Final/Health/health_countries.csv')
-    df_continent =  pd.read_csv("https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.csv")
-    df_health_countries = df_health_countries.merge(df_continent, left_on='Country Code', right_on='alpha-3')
-    df_health_countries_birth = df_health_countries[df_health_countries['Indicator Name']=="Completeness of birth registration (%)"]
+    df = df_final[~df_final.continent.isna()]
+    df = df[df['Indicator Name']=="Completeness of birth registration (%)"]
     
-    fig = px.box(df_health_countries_birth, x="region", y="value", color="region")
+    fig = px.box(df, x="continent", y="value", color="continent")
     fig.update_traces(quartilemethod="exclusive") # or "inclusive", or "linear" by default
     fig.update_layout(height=500, width=800,
                       title = 'Birth Registration Completness across different continents',
@@ -203,15 +200,15 @@ def birth_registration():
     return html
 
 def continent_pop():
-    df_health_countries = pd.read_csv('/Users/norika_machome/GitHub/DS4SG-Global-Inequality/Data/Final/Health/health_countries.csv')
-    df_continent =  pd.read_csv("https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.csv")
-
-    df_health_countries = df_health_countries.merge(df_continent, left_on='Country Code', right_on='alpha-3')
-    df_health_countries_pop = df_health_countries[df_health_countries['Indicator Name']=='Population, total']
-    fig = px.bar(df_health_countries_pop, x="region", y="value", color="region",
+    """
+    Plots population growth in each continent
+    """
+    df = df_final[~df_final.continent.isna()]
+    df = df[df['Indicator Name']=='Population, total']
+    fig = px.bar(df, x="continent", y="value", color="continent",
                  labels={
                      "value": "Population",
-                     "region": "Continent",
+                     "continent": "Continent",
                  },
                 title="Population Growth between 1960 and 2022",
                 animation_frame="Date", animation_group= "Country Name", range_y=[0,5000000000])
@@ -219,43 +216,42 @@ def continent_pop():
     html = fig.to_html(include_plotlyjs="require", full_html=False)
     return html
 
-def health_expenditure():
-    df_health_countries = pd.read_csv('/Users/norika_machome/GitHub/DS4SG-Global-Inequality/Data/Final/Health/health_countries.csv')
-    df_continent =  pd.read_csv("https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.csv")
-
-    df_health_countries = df_health_countries.merge(df_continent, left_on='Country Code', right_on='alpha-3')
-    df_health_countries = df_health_countries[df_health_countries["Indicator Name"] == "Physicians (per 1,000 people)"]
-    df_health_countries = df_health_countries.groupby("Country Name").apply(lambda x: x[x["Date"] == x["Date"].max()]).reset_index(drop=True)
-    fig = px.treemap(df_health_countries, path=[px.Constant("world"), 'region', 'Country Name'], values='value',
-                  color='value', hover_data=['alpha-3'],
+def physicians():
+    """
+    Plots physicians
+    """
+    df = df_final[~df_final.continent.isna()]
+    df = df[df["Indicator Name"] == "Physicians (per 1,000 people)"]
+    df = df.groupby("Country Name").apply(lambda x: x[x["Date"] == x["Date"].max()]).reset_index(drop=True)
+    fig = px.treemap(df, path=[px.Constant("world"), 'continent', 'Country Name'], values='value',
+                  color='value', hover_data=['Country Code'],
                   color_continuous_scale='RdBu',
-                  color_continuous_midpoint=np.average(df_health_countries['value'], weights=df_health_countries['value']))
+                  color_continuous_midpoint=np.average(df['value'], weights=df['value']))
     fig.update_layout(margin = dict(t=50, l=25, r=25, b=25))
     html = fig.to_html(include_plotlyjs="require", full_html=False)
     return html
 
 def suicide():
     fig = make_subplots(rows = 1, cols=1)
-    df_health_countries = pd.read_csv('/Users/norika_machome/GitHub/DS4SG-Global-Inequality/Data/Final/Health/health_countries.csv')
+    df = df_final 
 
-    df_health_suicide_total = df_health_countries[df_health_countries["Indicator Name"] == "Suicide mortality rate (per 100,000 population)"]
-    df_health_suicide_female =df_health_countries[df_health_countries["Indicator Name"] == "Suicide mortality rate, female (per 100,000 female population)"].sort_values(by = 'value')
-    df_health_suicide_male =df_health_countries[df_health_countries["Indicator Name"] == "Suicide mortality rate, male (per 100,000 male population)"].sort_values(by = 'value')
+    df_female =df[df["Indicator Name"] == "Suicide mortality rate, female (per 100,000 female population)"].sort_values(by = 'value')
+    df_male =df[df["Indicator Name"] == "Suicide mortality rate, male (per 100,000 male population)"].sort_values(by = 'value')
 
     fig.add_trace(go.Bar(
-                         x = df_health_suicide_male["Country Name"],
-                         y = df_health_suicide_male["value"],
+                         x = df_male["Country Name"],
+                         y = df_male["value"],
                          name = 'Male Proportion'                     
                            ), row=1, col=1)
 
     fig.add_trace(go.Bar(
-                         x = df_health_suicide_female["Country Name"],
-                         y = -1 * np.array(df_health_suicide_female["value"]),
+                         x = df_female["Country Name"],
+                         y = -1 * np.array(df_female["value"]),
                          name = 'Female Proportion'                     
                            ), row=1, col=1)
 
 
-    fig.update_layout(height=800, width=1200,
+    fig.update_layout(height=800, width=800,
                       title = 'Suicides and its Proportion in different Countries among Genders',
                       barmode='overlay')
 

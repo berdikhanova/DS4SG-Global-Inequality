@@ -28,8 +28,6 @@ def explanatory_page(topic, text, graph = False):
     put_text(text)
     if graph:
         put_html(graph())
-    
-
 
 def make_question_checkbox(prompt, options, correct, explanation, graph = False, df = None):
     # Clears the page
@@ -85,7 +83,6 @@ def make_question_input(prompt, options, correct, explanation, graph = False):
 
     put_text(explanation)
 
-
 def make_question_elephant(prompt, options, correct, explanation, graph = False):
     # Clears the page
     global score
@@ -116,7 +113,6 @@ def make_question_elephant(prompt, options, correct, explanation, graph = False)
     put_image('https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Resources/elephant_answer.png')
 
     put_text(explanation)
-
 
 score_infinite = 0
 
@@ -183,7 +179,6 @@ def infinite_mode():
         old_country = country
 
  
-
 
 question_dict = {
     "question1": {
@@ -286,13 +281,13 @@ question_dict = {
         "graph": continent_pop
     },
     "question13":{
-        "prompt":"Health Expenditure ???",
+        "prompt":"Physicians ???",
         "options": NUMBER,
         "correct": 10,
         "explanation": """
         AAAAAAAAAAAAAA
         """,
-        "graph": health_expenditure
+        "graph": physicians
     },
     "question14":{
         "prompt":"Suicide",
@@ -306,6 +301,8 @@ question_dict = {
     ## Add more questions here
 }
 
+
+
 explanations_dict = {
     "gdp_per_capita": """
     GDP per capita is a measure of a country's economic output per person. It is calculated by dividing a country's gross domestic product (GDP) by its population. GDP is the total value of goods and services produced by a country in a given year.
@@ -317,7 +314,10 @@ In terms of global inequality, GDP per capita can be used as a rough indicator o
     "Life_Expectancy": """
     AAAAAA However, it is important to consider other factors and not rely solely on GDP per capita when comparing the wealth of different countries.
                     """
+    ## Add more explanations here
 }
+
+
 
 def first_page():
     clear()
@@ -331,6 +331,7 @@ def first_page():
     put_markdown('## Choose your Game Mode').style('text-align: center;')
     put_buttons(['Normal Mode', 'Infinite Mode'], onclick=[question1, infinite_mode]).style('text-align: center;')
 
+# ECONOMIC
 # Income in poor v rich countries
 def question1():
     make_question_checkbox(**question_dict["question1"])
@@ -357,11 +358,10 @@ def question10():
 
 def question11():
     make_question_input(**question_dict["question11"])
-    put_buttons(["Next"], onclick=[question4])
+    put_buttons(["Next"], onclick=[question12])
 
-# Norika's Health Part
-
-# Continent
+# HEALTH
+# Population Growth in each continents
 def question12():
     make_question_input(**question_dict["question12"])
     put_buttons(["Next"], onclick=[question4])
@@ -371,7 +371,7 @@ def question4():
     make_question_input(**question_dict["question4"])
     put_buttons(["Next"], onclick=[question3])
 
-# Healt1: Life Expectancy
+# Life Expectancy
 def question3():
     make_question_checkbox(**question_dict["question3"])
     put_buttons(["Next"], onclick=[explain_life_expectancy])
@@ -381,19 +381,17 @@ def explain_life_expectancy():
     explanatory_page("Life Expectancy", explanations_dict["Life_Expectancy"], graph = life_expectancy_sub)
     put_button("Next Question!", onclick=question13)
 
-# Health Expenditure
+# The number of physicians
 def question13():
     make_question_input(**question_dict["question13"])
     put_buttons(["Next"], onclick=[question14])
 
-# suicide
+# Suicide
 def question14():
     make_question_input(**question_dict["question14"])
     put_buttons(["Next"], onclick=[question7])
 
-
-# ### Marina's Part
-
+# EDUCATION
 def question7():
     make_question_checkbox(**question_dict["question7"])
     put_buttons(["Next"], onclick=[question8])
@@ -408,7 +406,9 @@ def question5():
     clear()
     put_text("In Development")
 
+# Environment
 
+## Add more functions here
 
 def last_page():
     global score
@@ -432,6 +432,3 @@ def last_page():
     score = 0
     n_questions = 0
     put_button("Play again", first_page)
-
-
-    
