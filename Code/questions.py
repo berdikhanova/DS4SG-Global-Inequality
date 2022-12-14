@@ -111,6 +111,8 @@ def restart():
     infinite_mode()
 
 df_raw = pd.read_csv("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/Assignment/Data/Final/indicators.csv?raw=true")
+info_df = pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Data/Final/countries.csv")
+df_raw = df_raw.merge(info_df, left_on="Country Code", right_on="iso_alpha", how = "inner")
 
 def infinite_mode():
     global score_infinite
@@ -148,7 +150,7 @@ def infinite_mode():
 
         answer = radio("", options=["Higher", "Lower"])
 
-        if answer != correct_answer:
+        if answer != correct_answer and old_country_indicator != country_indicator:
             correct = False
             put_markdown(f"Sorry, but that's wrong!")
             put_markdown(f"{old_country} has a {indicator} of {round(old_country_indicator, 2)}, and {country} has a {indicator} of {round(country_indicator, 2)}")

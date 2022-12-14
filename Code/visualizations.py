@@ -100,7 +100,7 @@ def income_share():
     return html
 
 def tree_map():
-    new_df = df[df["Indicator Name"] == "GDP per capita (current US$)"]
+    new_df = df[df["Indicator Code"] == "NY.GNP.PCAP.PP.CD"]
     new_df = new_df.groupby("Country Name").apply(lambda x: x[x["Date"] == x["Date"].max()]).reset_index(drop=True)
     info_df = pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Data/Final/countries.csv")
     # merge 
