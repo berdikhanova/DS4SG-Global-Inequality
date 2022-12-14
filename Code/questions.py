@@ -19,6 +19,10 @@ def show_score(score):
 
 def explanatory_page(topic, text, graph = False):
     clear()
+
+    # Add logo on the top left 
+    put_image("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/final_assignment/Quizality_logo.png?raw=true", width = '250px')
+
     put_markdown(f"## {topic}")
     put_text(text)
     if graph:
@@ -31,6 +35,10 @@ def make_question_checkbox(prompt, options, correct, explanation, graph = False,
     global score
     global n_questions
     clear()
+
+    # Add logo on the top left 
+    put_image("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/final_assignment/Quizality_logo.png?raw=true", width = '250px')
+
     show_score(score)
     # Creates a checkbox prompt
     answer = radio(prompt, options = options)
@@ -59,6 +67,9 @@ def make_question_input(prompt, options, correct, explanation, graph = False):
     # Clears the page
     clear()
 
+    # Add logo on the top left 
+    put_image("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/final_assignment/Quizality_logo.png?raw=true", width = '250px')
+
     # Creates a checkbox prompt
     answer = input(prompt, type=options)
 
@@ -80,8 +91,11 @@ def make_question_elephant(prompt, options, correct, explanation, graph = False)
     global n_questions
     clear()
     show_score(score)
-    # Creates a checkbox prompt
+
+    # Add logo on the top left 
     put_image('https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Resources/elephant.png')
+   
+    # Creates a checkbox prompt
     answer = radio(prompt, options = options)
 
     # Checks if the answer is correct
@@ -96,7 +110,8 @@ def make_question_elephant(prompt, options, correct, explanation, graph = False)
 
     # Add one to number of total questions so far 
     n_questions += 1
-
+    
+    # Add logo on the top left 
     put_image('https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Resources/elephant_answer.png')
 
     put_text(explanation)
@@ -116,6 +131,9 @@ def infinite_mode():
     old_country = df_raw.sample()["Country Name"].values[0]
     while correct:
         clear()
+        # Add logo on the top left 
+        put_image("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/final_assignment/Quizality_logo.png?raw=true", width = '250px')
+
         put_markdown(f"## Score: {score_infinite}")
         # random country
 
@@ -297,6 +315,10 @@ def question11():
     make_question_input(**question_dict["question11"])
     put_buttons(["Next"], onclick=[question3])
 
+# Norika's Health Part
+
+# Add explanatory_page
+
 def question3():
     make_question_checkbox(**question_dict["question3"])
     put_buttons(["Next"], onclick=[question4])
@@ -305,6 +327,7 @@ def question4():
     make_question_input(**question_dict["question4"])
     put_buttons(["Next"], onclick=[question7])
 
+# ###
 def question7():
     make_question_checkbox(**question_dict["question7"])
     put_buttons(["Next"], onclick=[question8])
@@ -323,6 +346,9 @@ def last_page():
     global score
     global n_questions
     clear()
+    
+    # Add logo on the top left 
+    put_image("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/final_assignment/Quizality_logo.png?raw=true", width = '250px')
 
     put_markdown("## Thanks for playing!")
 
