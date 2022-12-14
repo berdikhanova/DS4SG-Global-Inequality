@@ -10,6 +10,7 @@ import random
 
 # import visualizations
 from Code.visualizations import *
+from quiz_game import *
 
 score = 0 
 n_questions = 0
@@ -124,9 +125,10 @@ def restart():
     score_infinite = 0
     infinite_mode()
 
+df_raw = pd.read_csv("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/Assignment/Data/Final/indicators.csv?raw=true")
+
 def infinite_mode():
     global score_infinite
-    df_raw = pd.read_csv("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/Assignment/Data/Final/indicators.csv?raw=true")
     correct = True
     old_country = df_raw.sample()["Country Name"].values[0]
     while correct:
@@ -172,7 +174,7 @@ def infinite_mode():
             put_markdown("# Final Score: " + str(score_infinite))
 
             score_infinite = 0
-            put_button("Play again", restart)
+            put_button("Play again", first_page)
         else:
             score_infinite += 1
             put_markdown(f"Answer {answer} is Correct!")
@@ -257,20 +259,19 @@ question_dict = {
             "Proportion of people with access to a green space within 2km of their household, at different percentiles of income"],
         "correct": 3,
         "explanation": """
-        The graph shows the increase in real income for different percentiles of income in the world from 1988 to 2008. The
-horizontal axis represents the income distribution, from poorest to richest. The 99th percentile (on the right of the graph) shows the richest 1%. We see that economic development affected people very differently. The main beneficiaries (in terms of relative change) were the global middle class, mainly due to the economic growth of China, India, and Eastern Europe.
+        The graph, created by Branko Milanovic and published in 2013, shows the increase in real income for different percentiles of income in the world from 1988 to 2008. The horizontal axis represents the income distribution, from poorest to richest. The 99th percentile (on the right of the graph) shows the richest 1%. We see that economic development affected people very differently. One of the main beneficiaries (in terms of relative change) were the global middle class, mainly due to the economic growth of China, India, and Eastern Europe. The very richest also had a huge boost in income, while the very poor are even poorer today. Interestingly, the 60th to 90th percentile of the population (the middle class in richer countries) did not grow their income very much. 
+        The graph highlights the uneven nature of economic development and the widening gap between the very rich and the very poor, but also shows a conversion in the "middle" section of the population, as previously poor countries develop. 
         """,
         "graph": None
     },
 
     "question11":{
-        "prompt":"Becky is the average person in Monaco, earning $186,000 per year. If we summed up the salaries of one average person from each of the poorest countries in the world, how many countries would we have to go through until having the same salary as Becky?",
+        "prompt":"Philippe is the average person in Monaco, earning $186,000 per year. If we summed up the salaries of one average person from each of the poorest countries in the world, how many countries would we have to go through until having the same salary as Philippe?",
         "options": NUMBER,
         "correct": 84,
         "explanation": """
         If we added up the salaries from one person from each of the lowest income countries in the world, we would need to go through 84 countries. This shows how vast the difference in earnings can be across countries. Usually, we talk about the difference between specific individuals, which is even greater, but the inequality in different regions of the world is also extremely high. 
-In the chart above, you see the proportion that each country would make-up in order to achieve Becky's yearly income. Note in the chat that the colors represent the continents. Do you see any patterns? 
-
+        In the chart above, you see the proportion that each country would make-up in order to achieve Philippe's yearly income. Note in the chat that the colors represent the continents. Do you see any patterns? 
         """,
         "graph": tree_map
     },
@@ -286,6 +287,18 @@ GDP per capita can also be affected by a variety of other factors, such as a cou
 In terms of global inequality, GDP per capita can be used as a rough indicator of the relative wealth of different countries. However, it is important to consider other factors and not rely solely on GDP per capita when comparing the wealth of different countries.
                     """
 }
+
+def first_page():
+    clear()
+    put_image("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/final_assignment/Quizality_logo.png?raw=true", width = '250px')
+    put_markdown('# Welcome to the Quizality!').style( 'text-align: center; margin: auto;  width: 80%; font-size: 40px') 
+    put_text('"Inequality" in itself is a term that can trigger a number of different ideas in the mind of the reader or listener based on their knowledge and prejudice. The meaning attached to ‘Economic Inequality’ is not self-explanatory. Individuals from developed countries often cannot envision the extent of deepening economic crises in the Global South. As students at an international university, we have had the unique opportunity to travel around the world and have witnessed firsthand the disparities in income, education, healthcare, and other socio-economic issues. Therefore, my peers and I signed up for a project for our tutorial class, ‘Data Science for Social Good’, for our Fall semester of 2022.')
+    put_markdown('# Meet Our Team!').style( 'text-align: center; margin: auto;  width: 80%; font-size: 40px')
+    put_image("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/final_assignment/team_photo.png?raw=true", width='500px').style( 'display: block; margin-left: auto;  margin-right: auto;  width: 60%;')
+    put_markdown('Are You Ready To Play?').style( 'text-align: center; margin: auto;  width: 80%; font-size: 40px') 
+    put_text('# In this game... there are two modes.........').style('text-align: center;')
+    put_markdown('## Choose your Game Mode').style('text-align: center;')
+    put_buttons(['Normal Mode', 'Infinite Mode'], onclick=[question1, infinite_mode]).style('text-align: center;')
 
 # Income in poor v rich countries
 def question1():
@@ -342,6 +355,8 @@ def question5():
     clear()
     put_text("In Development")
 
+
+
 def last_page():
     global score
     global n_questions
@@ -363,7 +378,7 @@ def last_page():
 
     score = 0
     n_questions = 0
-    put_button("Play again", question1)
+    put_button("Play again", first_page)
 
 
     
