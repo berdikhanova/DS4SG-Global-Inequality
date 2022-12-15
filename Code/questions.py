@@ -121,7 +121,7 @@ def restart():
     score_infinite = 0
     infinite_mode()
 
-df_raw = pd.read_csv("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/Assignment/Data/Final/indicators.csv?raw=true")
+df_raw = pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Data/Final/df_final.csv")
 info_df = pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Data/Final/countries.csv")
 df_raw = df_raw.merge(info_df, left_on="Country Code", right_on="iso_alpha", how = "inner")
 
