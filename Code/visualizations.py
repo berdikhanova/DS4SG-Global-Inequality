@@ -1,9 +1,18 @@
 import plotly.express as px
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
+from bubbly.bubbly import bubbleplot 
+from plotly.subplots import make_subplots
+import plotly.graph_objs as go
+
+
 
 df = pd.read_csv("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/Assignment/Data/Final/indicators.csv?raw=true")
 df2 = pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/Assignment/Data/Final/df_countries.csv")
+df_final =  pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Data/Final/df_final.csv")
+
+
 # Plot birth registration in Brazil over time with plotly express
 
 def income_distribution():
@@ -98,16 +107,45 @@ def income_share():
     
     return html
 
+def tree_map():
+    new_df = df[df["Indicator Code"] == "NY.GNP.PCAP.PP.CD"]
+    new_df = new_df.groupby("Country Name").apply(lambda x: x[x["Date"] == x["Date"].max()]).reset_index(drop=True)
+    info_df = pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Data/Final/countries.csv")
+    # merge 
+    new_df = new_df.merge(info_df, left_on="Country Code", right_on="iso_alpha", how = "inner")
+
+    # Highest gdp per capita
+    new_df = new_df.sort_values("value", ascending=False)
+    highest = new_df.head(1)['value'].values[0]
+    # Cumulative sum of gdp per capita
+    new_df = new_df.sort_values("value", ascending=True)
+    new_df['cumsum'] = new_df['value'].cumsum()
+
+    lowest_df = new_df[new_df['cumsum']< highest]
+    lowest_df['Highest'] = "Monaco"
+
+    fig = px.treemap(lowest_df, path=['Highest', 'Country Name'], values='value',
+                  color='continent', 
+                  color_discrete_sequence= px.colors.qualitative.Set2
+            )
+    fig.update_layout(margin = dict(t=50, l=25, r=25, b=25))
+    fig.data[0].hovertemplate = '%{label}<br>Yearly Income ($): %{value}<br>Continent: %{customdata[0]}'
+    
+    html = fig.to_html(include_plotlyjs="require", full_html=False)
+    
+    return html
+
+# Health Section
 def life_expectancy():
     """
     Plots world life expectancy
     """
     # Subsetting data
-    le_total = df[(df["Indicator Code"] == "SP.DYN.LE00.IN")& (df["Date"] == 2020)]
-    le_total = le_total.rename(columns={"value": "Average Life Expectancy"})
+    df = df_final[(df_final["Indicator Code"] == "SP.DYN.LE00.IN")& (df_final["Date"] == 2020)]
+    df = df.rename(columns={"value": "Average Life Expectancy"})
 
     # Plotting
-    fig = px.choropleth(le_total, locations="Country Code",
+    fig = px.choropleth(df, locations="Country Code",
                     color="Average Life Expectancy", 
                     hover_name="Country Name", # column to add to hover information
                     color_continuous_scale=px.colors.sequential.Plasma,
@@ -117,26 +155,112 @@ def life_expectancy():
     
     return html
 
-
-def birth_registration():
+def life_expectancy_sub():
     """
-    Plots birth registration
+    Plots world life expectancy vs gdp per capita
     """
     # Subsetting data
-    br_df = df2[(df2["Indicator Name"] == "Completeness of birth registration (%)") ]
-    br_df = br_df.groupby("Country Code").last()
-    br_df["Country Code"] = br_df.index.values
-    br_df = br_df.sort_values(by=['value'])
-    br_df = br_df.rename(columns={"value": "Completeness of birth registration (%)"})
+    df = df_final[~df_final.continent.isna()]
 
+    df_gdp = df[df['Indicator Name']=='GDP per capita (current US$)']
+    df_lifeexp = df[df['Indicator Name']=='Life expectancy at birth, total (years)']
+    df_pop = df[df['Indicator Name']=='Population, total']
 
-    # Plotting
-    fig = px.bar(br_df, x='Country Name', y='Completeness of birth registration (%)',
-                 title = "Completeness of birth registration (%)")
-    
+    df_merged = df_gdp.merge(df_lifeexp, on = ['Date', 'Country Code'])
+    df_merged = df_merged.merge(df_pop, on = ['Date', 'Country Code']).drop(columns=[col for col in df_merged if col not in ['Country Code','Indicator Name_x', 'Date', 'value_x', 'Indicator Name_y', 'value_y', 'Country Name', 'Indicator Code','value','continent']])
+    df_merged
+
+    fig = px.scatter(df_merged, x="value_x", y="value_y", animation_frame="Date", animation_group="Country Name",
+               size="value", color="continent", hover_name="Country Name",
+               log_x=True, size_max=55, range_x=[50,100000], range_y=[25,90]).update_layout(
+        xaxis_title="GDP per Capita (Log Scale)", yaxis_title="Life Expectancy")
+
+    #fig.layout.updatemenus[0].buttons[0].args[1]["frame"]["duration"] = 50
     html = fig.to_html(include_plotlyjs="require", full_html=False)
     
     return html
+
+def birth_registration():
+    """
+    Plots birth registration box chart
+    """
+    # Subsetting data
+    df = df_final[~df_final.continent.isna()]
+    df = df[df['Indicator Name']=="Completeness of birth registration (%)"]
+    
+    fig = px.box(df, x="continent", y="value", color="continent")
+    fig.update_traces(quartilemethod="exclusive") # or "inclusive", or "linear" by default
+    fig.update_layout(height=500, width=800,
+                      title = 'Birth Registration Completness across different continents',
+                      barmode='overlay')
+    fig.update_xaxes(title_text = 'Continents', tickangle = 60, row=1, col=1)
+    fig.update_yaxes(title_text='Birth Registration', row=1, col=1)
+    html = fig.to_html(include_plotlyjs="require", full_html=False)
+    
+    return html
+
+def continent_pop():
+    """
+    Plots population growth in each continent
+    """
+    df = df_final[~df_final.continent.isna()]
+    df = df[df['Indicator Name']=='Population, total']
+    fig = px.bar(df, x="continent", y="value", color="continent",
+                 labels={
+                     "value": "Population",
+                     "continent": "Continent",
+                 },
+                title="Population Growth between 1960 and 2022",
+                animation_frame="Date", animation_group= "Country Name", range_y=[0,5000000000])
+    fig.layout.updatemenus[0].buttons[0].args[1]["frame"]["duration"] = 50
+    html = fig.to_html(include_plotlyjs="require", full_html=False)
+    return html
+
+def physicians():
+    """
+    Plots physicians
+    """
+    df = df_final[~df_final.continent.isna()]
+    df = df[df["Indicator Name"] == "Physicians (per 1,000 people)"]
+    df = df.groupby("Country Name").apply(lambda x: x[x["Date"] == x["Date"].max()]).reset_index(drop=True)
+    fig = px.treemap(df, path=[px.Constant("world"), 'continent', 'Country Name'], values='value',
+                  color='value', hover_data=['Country Code'],
+                  color_continuous_scale='RdBu',
+                  color_continuous_midpoint=np.average(df['value'], weights=df['value']))
+    fig.update_layout(margin = dict(t=50, l=25, r=25, b=25))
+    html = fig.to_html(include_plotlyjs="require", full_html=False)
+    return html
+
+def suicide():
+    fig = make_subplots(rows = 1, cols=1)
+    df = df_final 
+
+    df_female =df[df["Indicator Name"] == "Suicide mortality rate, female (per 100,000 female population)"].sort_values(by = 'value')
+    df_male =df[df["Indicator Name"] == "Suicide mortality rate, male (per 100,000 male population)"].sort_values(by = 'value')
+
+    fig.add_trace(go.Bar(
+                         x = df_male["Country Name"],
+                         y = df_male["value"],
+                         name = 'Male Proportion'                     
+                           ), row=1, col=1)
+
+    fig.add_trace(go.Bar(
+                         x = df_female["Country Name"],
+                         y = -1 * np.array(df_female["value"]),
+                         name = 'Female Proportion'                     
+                           ), row=1, col=1)
+
+
+    fig.update_layout(height=800, width=800,
+                      title = 'Suicides and its Proportion in different Countries among Genders',
+                      barmode='overlay')
+
+    fig.update_xaxes(title_text = 'Country', tickangle = 60, row=1, col=1)
+    fig.update_yaxes(title_text='Suicide mortality rate (per 100,000 population)', row=1, col=1)
+
+    html = fig.to_html(include_plotlyjs="require", full_html=False)
+    return html
+
 
 def mau_share():
     """
@@ -166,3 +290,85 @@ def teachers_share():
     html = fig.to_html(include_plotlyjs="require", full_html=False)
 
     return html
+
+
+def gdp_per_capita():
+    new_df = df[df["Indicator Name"] == "GDP per capita (current US$)"]
+    new_df = new_df.groupby("Country Name").apply(lambda x: x[x["Date"] == x["Date"].max()]).reset_index(drop=True)
+    # log values
+    new_df["log_value"] = np.log10(new_df["value"])
+    # Figure size
+
+    fig = px.choropleth(
+        new_df, locations="Country Code",
+        color="log_value", 
+        hover_name="Country Name", # column to add to hover information
+        hover_data=["value"],
+        color_continuous_scale=px.colors.sequential.Plasma,
+        title='GDP per capita in the World',
+        labels={'log_value':'Log of GDP per capita (current US$)', 'value':'GDP per capita (current US$)'},
+        )
+
+    fig.update_layout(height=600, 
+                        width=1000,
+                        coloraxis_colorbar=dict(
+                            #len=0.75,
+                            title='GDP per capita (current US$)', 
+                            tickvals = [3, 4, 5],
+                            ticktext = ['1k', '10k', '100k'],
+                            yanchor="bottom",
+                            y=0.1,
+                            xanchor="left",
+                            x=0.01,
+                            len = .4),
+                        margin=dict(l=10, r=10, t=50, b=10)
+                    )
+
+    html = fig.to_html(include_plotlyjs="require", full_html=False)
+
+    return html
+
+def female_unemployment():
+   """
+   Female unemployment (% of total labor force) in Middle East & North Africa (excluding high income)
+   """
+   # Subsetting data
+   mna_female = df[(df['Country Code'] == "MNA") & (df['Indicator Code'] == "SL.UEM.TOTL.FE.ZS")]
+ 
+   # Plotting
+   fig = px.line(mna_female, x='Date', y='value', text_auto='.3s', range_y=[0,100], labels = {"Date":"Years", "value":"Female unemployment ($%$ of total labor force)","Country Name":"Country"}, title='Female unemployment (% of total labor force) in Middle East & North Africa (excluding high income)')
+  
+   html = fig.to_html(include_plotlyjs="require", full_html=False)
+ 
+   return html
+ 
+def labor_force():
+   """
+   Female labor force (% of total labor force) in Afghanistan vs. European Union
+   """
+   # Subsetting data
+   afg_female = df[(df['Country Code'] == "AFG") | (df['Country Code'] == "EUU")]
+   afg_female = df[(df['Indicator Code'] == "SL.TLF.TOTL.FE.ZS")]
+ 
+   # Plotting
+   fig = px.line(afg_female, x='Date', y='value', text_auto='.3s', range_y=[0,100], labels = {"Date":"Years", "value":"Female labor force (% of total labor force)","Country Name":"Country"}, color = "Country Name", title='Female labor force (% of total labor force) in Afghanistan vs. European Union')
+  
+   html = fig.to_html(include_plotlyjs="require", full_html=False)
+ 
+   return html
+ 
+def post_enrollment():
+   """
+   Post-secondary school enrollment (% of gross) in Least Developed Countries
+   """
+   # Subsetting data
+   afg_female = df[(df['Country Code'] == "LDC") | (df['Country Code'] == "EUU")]
+   afg_female = df[(df['Indicator Code'] == "SE.TER.ENRR")]
+ 
+   # Plotting
+   fig = px.line(afg_female, x='Date', y='value', text_auto='.3s', range_y=[0,100], labels = {"Date":"Years", "value":"Post-secondary school enrollment (% of gross)","Country Name":"Country"}, color = "Country Name", title='Post-secondary school enrollment (% of gross) in Least Developed Countries vs. European Union')
+  
+   html = fig.to_html(include_plotlyjs="require", full_html=False)
+ 
+   return html
+
