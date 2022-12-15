@@ -301,8 +301,28 @@ question_dict = {
         "graph": suicide
     },
     ## Add more questions here
+    "question15":{
+       "prompt": "True of False: Almost 1 in every 5 women is unemployed in Middle East & North Africa, excluding high income population.",
+       "options": ["True", "False"],
+       "correct": 1,
+       "explanation": "Defined by the International Labour Organization as the share of the labor force that is without work but available for and seeking employment, unemployment can signal and be a result of a myriad of other factors, both good and bad. Nevertheless, in the absence of a proper safety net in lower income countries, high unemployment signals inadequate allocation of resources. In the Middle East and North Africa region, women continue facing gender inequality in many areas. Despite its recent progress in and focus on health and education, many issues remain in the region due to the political and economic upheaval, conflict, occupation, and the COVID-19 pandemic. Moreover, in their comprehensive analysis of the women in development in MENA region UNICEF reports: many States in the region still allow such norms and practices to restrict the rights of females relative to males, and limit access for women and girls to targeted education regarding their rights and other substantive empowerment initiatives. Thus, higher unemployment can occur in countries with a high level of economic development and low rates of poverty, in the MENA region it is segregated and affects only the female population, with a decreasing rate of unemployment for males.",
+       "graph": female_unemployment
+   },
+   "question16":{
+       "prompt": "Did the female labor force increase, decrease or stay the same since 2013 in Afghanistan?",
+       "options": ["Increased", "Decreased", "Stayed the same"],
+       "correct": 3,
+       "explanation": "Afghanistan has been an area of international concern when it came to women’s rights due to continuous gender-based violence and many restrictive norms and laws enforced on a national level with varying sub-national practices. More specifically, at the time of this writing, women are mostly restricted from working outside the home, they must cover their faces in public, and they have to be accompanied by a male chaperone when they travel. The country is an example of the adverse effects of conflict on the wellbeing of the country on multiple levels, including economic and societal. Despite international efforts through donations and many programs initiated by the UN, due to recent political conflicts in Afghanistan, the efforts of the abovementioned programs fell back, and the female participation in labor has decreased dramatically, which signals lower female autonomy and higher dependence on the husbands. Women in Afghanistan currently remain neglected and in need of immediate intervention from the international authorities.",
+       "graph": labor_force
+   },
+   "question17":{
+       "prompt": "Estimate the percentage of post-secondary enrollment in Least Developed Countries as of 2021",
+       "options": NUMBER,
+       "correct": 11,
+       "explanation": "UNESCO Institute of Statistics reports that despite an overall increasing trend the school enrollment in tertiary education in the Least Development Countries remains low, at about 11% of gross on average in those countries, compared to the EU’s 73%. One of the reasons for such low numbers could be that tertiary education, whether or not to be an advanced research qualification, normally requires, as a minimum condition of admission, the successful completion of education at the secondary level. Education in the Least Developed Countries, albeit progress in the recent decades at a primary and secondary levels, defined as one of the Millenium Development Goals as well as the Sustainable Development Goals, needs global attention. While enrollment in post-secondary education is linked to higher income and better life outcomes, many minorities in the least developed countries remain at a disadvantage when it comes to equal access to education.",
+       "graph": post_enrollment
+   }
 }
-
 
 
 explanations_dict = {
@@ -315,6 +335,13 @@ In terms of global inequality, GDP per capita can be used as a rough indicator o
                     """,
     "Life_Expectancy": """
     AAAAAA However, it is important to consider other factors and not rely solely on GDP per capita when comparing the wealth of different countries.
+                    """,
+    "unemployment": """
+    According to the OECD, the definition of “unemployment” is the following: “people above a specified age not being in paid employment or self-employment but currently available for work during the reference period. Unemployment is measured by the unemployment rate, which is the number of people who are unemployed as a percentage of the labour force”. There are several types of unemployment: cyclical, structural and frictional unemployment.
+The Reserve Bank of Australia provides the following definitions:
+Cyclical unemployment occurs with changes in economic activity over the business cycle. Structural unemployment occurs when there is a mismatch between the jobs that are available and the people looking for work. This mismatch could be because jobseekers don’t have the skills required to do the available jobs, or because the available jobs are a long way from the jobseekers.
+Frictional unemployment occurs when people move between jobs in the labour market, as well as when people transition into and out of the labour force.
+Thus, even when an economy is operating at its maximum efficiency, there will still be natural unemployment. In general accepted theory, when the growth rate of a country's economy increases, it is expected that employment will increase and the unemployment rate will decrease on average. 
                     """
     ## Add more explanations here
 }
@@ -400,7 +427,23 @@ def question7():
 
 def question8():
     make_question_input(**question_dict["question8"])
-    put_buttons(["Next"], onclick=[last_page])
+    put_buttons(["Next"], onclick=[explain_unemployment])
+
+def explain_unemployment():
+    explanatory_page("Unemployment", explanations_dict["unemployment"])
+    put_button("Test my knowledge!", onclick=question15)
+
+def question15():
+   make_question_checkbox(**question_dict["question15"])
+   put_buttons(["Next"], onclick=[question16])
+ 
+def question16():
+   make_question_checkbox(**question_dict["question16"])
+   put_buttons(["Next"], onclick=[question17]) 
+ 
+def question17():
+   make_question_input(**question_dict["question17"])
+   put_buttons(["Next"], onclick=[last_page])
 
 
 def question5():
