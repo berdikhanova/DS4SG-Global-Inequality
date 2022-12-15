@@ -7,9 +7,9 @@ import plotly.graph_objs as go
 
 
 
-df = pd.read_csv("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/Assignment/Data/Final/indicators.csv?raw=true")
-df2 = pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/Assignment/Data/Final/df_countries.csv")
-df_final =  pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Data/Final/df_final.csv")
+df = df_final = pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Data/Final/indicators.csv")
+df2 = pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Data/Final/df_countries.csv")
+#df_final =  pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Data/Final/df_final.csv")
 
 
 # Plot birth registration in Brazil over time with plotly express
@@ -107,7 +107,7 @@ def income_share():
     return html
 
 def tree_map():
-    new_df = df_final[df_final["Indicator Code"] == "NY.GNP.PCAP.PP.CD"]
+    new_df = df[df["Indicator Code"] == "NY.GNP.PCAP.PP.CD"]
     info_df = pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Data/Final/countries.csv")
     # merge 
     new_df = new_df.merge(info_df, left_on="Country Code", right_on="iso_alpha", how = "inner")
@@ -121,10 +121,10 @@ def tree_map():
     new_df['cumsum'] = new_df['value'].cumsum()
 
     lowest_df = new_df[new_df['cumsum']< highest]
-    lowest_df['Highest'] = "Monaco"
+    lowest_df['Highest'] = "Singapore"
 
     fig = px.treemap(lowest_df, path=['Highest', 'Country Name'], values='value',
-                  color='continent', 
+                  color='continent_y', 
                   color_discrete_sequence= px.colors.qualitative.Set2
             )
     fig.update_layout(margin = dict(t=50, l=25, r=25, b=25))
