@@ -21,7 +21,7 @@ from Code.visualizations import *
 from Code.questions import *
 
 # Import csv from url
-# df = pd.read_csv("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/Assignment/Data/Final/indicators.csv?raw=true")
+df = pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Data/Final/indicators.csv")
 
 #### MAKE LANDING PAGE ####
 #@use_scope('score', clear=True)
@@ -31,7 +31,7 @@ def main():
     first_page()
 
 if __name__ == '__main__':
-    question11()
+    main()
         
         
 

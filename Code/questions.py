@@ -121,7 +121,7 @@ def restart():
     score_infinite = 0
     infinite_mode()
 
-df_raw = pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Data/Final/df_final.csv")
+df_raw = pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Data/Final/indicators.csv")
 info_df = pd.read_csv("https://raw.githubusercontent.com/berdikhanova/DS4SG-Global-Inequality/final_assignment/Data/Final/countries.csv")
 df_raw = df_raw.merge(info_df, left_on="Country Code", right_on="iso_alpha", how = "inner")
 
@@ -263,12 +263,12 @@ question_dict = {
     },
 
     "question11":{
-        "prompt":"Philippe is the average person in Monaco, earning $186,000 per year. If we summed up the salaries of one average person from each of the poorest countries in the world, how many countries would we have to go through until having the same salary as Philippe?",
+        "prompt":"Wei is the average person in Singapore, earning $102,000 per year. If we summed up the salaries of one average person from each of the poorest countries in the world, how many countries would we have to go through until having the same salary as Wei, adjusted for the cost of living of each country?",
         "options": NUMBER,
-        "correct": 84,
+        "correct": 40,
         "explanation": """
-        If we added up the salaries from one person from each of the lowest income countries in the world, we would need to go through 84 countries. This shows how vast the difference in earnings can be across countries. Usually, we talk about the difference between specific individuals, which is even greater, but the inequality in different regions of the world is also extremely high. 
-        In the chart above, you see the proportion that each country would make-up in order to achieve Philippe's yearly income. Note in the chat that the colors represent the continents. Do you see any patterns? 
+        If we added up the salaries from one person from each of the lowest income countries in the world, we would need to go through 40 countries. This shows how vast the difference in earnings can be across countries. Usually, we talk about the difference between specific individuals, which is even greater, but the inequality in different regions of the world is also extremely high. 
+        In the chart above, you see the proportion that each country would make-up in order to achieve Wei's yearly income. Note in the chat that the colors represent the continents. Do you see any patterns? 
         """,
         "graph": tree_map
     },
