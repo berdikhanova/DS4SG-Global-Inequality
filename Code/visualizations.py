@@ -2,7 +2,6 @@ import plotly.express as px
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-from bubbly.bubbly import bubbleplot 
 from plotly.subplots import make_subplots
 import plotly.graph_objs as go
 
