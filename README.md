@@ -108,7 +108,7 @@ python quiz_game.py
 
 ## License
 
-Copyright (c) 2022 Berdikhanova, M., Oliveira, F., Narimatsu, N., & Ali, N.
+Copyright (c) 2022 Ali, N., Berdikhanova, M., Narimatsu, N., & Oliveira, F.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -129,5 +129,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Cite
-Berdikhanova, M., Oliveira, F., Narimatsu, N., & Ali, N. (2022, November). Quizality. Quizality: An interactive quiz game to illustrate the depth 
+Ali, N., Berdikhanova, M., Narimatsu, N., & Oliveira, F. (2022, November). Quizality. Quizality: An interactive quiz game to illustrate the depth 
 &nbsp;&nbsp;&nbsp;&nbsp; of global inequality. https://quizality-app.herokuapp.com/ 
