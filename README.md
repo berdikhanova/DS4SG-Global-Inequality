@@ -128,5 +128,4 @@ SOFTWARE.
 
 ## Cite
 
-Berdikhanova, M., Oliveira, F., Narimatsu, N., & Ali, N. (2022, November). Quizality. Quizality: An interactive quiz game to illustrate the depth 
-&nbsp;&nbsp;&nbsp;&nbsp; of global inequality. https://quizality-app.herokuapp.com/ 
+Berdikhanova, M., Oliveira, F., Narimatsu, N., & Ali, N. (2022, November). Quizality. Quizality: An interactive quiz game to illustrate the depth  of global inequality. https://quizality-app.herokuapp.com/ 
