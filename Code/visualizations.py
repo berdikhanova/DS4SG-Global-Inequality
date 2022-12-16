@@ -335,7 +335,7 @@ def female_unemployment():
    mna_female = df[(df['Country Code'] == "MNA") & (df['Indicator Code'] == "SL.UEM.TOTL.FE.ZS")]
  
    # Plotting
-   fig = px.line(mna_female, x='Date', y='value', text_auto='.3s', range_y=[0,100], labels = {"Date":"Years", "value":"Female unemployment ($%$ of total labor force)","Country Name":"Country"}, title='Female unemployment (% of total labor force) in Middle East & North Africa (excluding high income)')
+   fig = px.line(mna_female, x='Date', y='value', range_y=[0,100], labels = {"Date":"Years", "value":"Female unemployment ($%$ of total labor force)","Country Name":"Country"}, title='Female unemployment (% of total labor force) in Middle East & North Africa (excluding high income)')
   
    html = fig.to_html(include_plotlyjs="require", full_html=False)
  
@@ -350,7 +350,7 @@ def labor_force():
    afg_female = afg_female[(afg_female['Indicator Code'] == "SL.TLF.TOTL.FE.ZS")]
  
    # Plotting
-   fig = px.line(afg_female, x='Date', y='value', text_auto='.3s', range_y=[0,100], labels = {"Date":"Years", "value":"Female labor force (% of total labor force)","Country Name":"Country"}, color = "Country Name", title='Female labor force (% of total labor force) in Afghanistan vs. European Union')
+   fig = px.line(afg_female, x='Date', y='value', range_y=[0,100], labels = {"Date":"Years", "value":"Female labor force (% of total labor force)","Country Name":"Country"}, color = "Country Name", title='Female labor force (% of total labor force) in Afghanistan vs. European Union')
   
    html = fig.to_html(include_plotlyjs="require", full_html=False)
  
@@ -365,9 +365,41 @@ def post_enrollment():
    enrollmentpost = enrollmentpost[(enrollmentpost['Indicator Code'] == "SE.TER.ENRR")]
  
    # Plotting
-   fig = px.line(enrollmentpost, x='Date', y='value', text_auto='.3s', range_y=[0,100], labels = {"Date":"Years", "value":"Post-secondary school enrollment (% of gross)","Country Name":"Country"}, color = "Country Name", title='Post-secondary school enrollment (% of gross) in Least Developed Countries vs. European Union')
+   fig = px.line(enrollmentpost, x='Date', y='value', range_y=[0,100], labels = {"Date":"Years", "value":"Post-secondary school enrollment (% of gross)","Country Name":"Country"}, color = "Country Name", title='Post-secondary school enrollment (% of gross) in Least Developed Countries vs. European Union')
   
    html = fig.to_html(include_plotlyjs="require", full_html=False)
  
    return html
 
+
+def forest():
+   """
+   """
+   # Subsetting data
+   forest = df_final[(df_final['Indicator Name'] == 'Forest area (sq. km)')&(df_final['Country Name'] == 'World')]
+ 
+   # Plotting
+   fig = px.line(forest, x="Date", y="value", title="Forest Area (sq.km) - World").update_layout( xaxis_title="Year", yaxis_title="Area")  
+   
+   html = fig.to_html(include_plotlyjs="require", full_html=False)
+ 
+   return html
+
+def coal():
+    question2_df = df[(df['Country Name'] == "World") | (df['Country Code'] == "OED")| (df['Country Code'] == "LDC")]
+    question2_df = question2_df[question2_df['Indicator Code'] == 'EG.ELC.COAL.ZS' ] 
+    fig = px.line(question2_df, x="Date", y="value", labels = {"Date":"Year", "value":"percentage(%)","Country Name":"Country"},color = "Country Name", title='Electricity production from coal sources (% of total)', markers = True,)
+    html = fig.to_html(include_plotlyjs="require", full_html=False)
+    return html
+    
+def energy():
+   """
+   """
+   # Subsetting data
+   energy = df_final[(df_final['Indicator Name'] == 'Alternative and nuclear energy (% of total energy use)')&(df_final['Country Code'] == 'FRA')]
+   # Plotting
+   fig = px.line(energy, x="Date", y="value", title="Alternative and nuclear energy (% of total energy use) - France").update_layout( xaxis_title="Year", yaxis_title="percentage (%)")
+     
+   html = fig.to_html(include_plotlyjs="require", full_html=False)
+ 
+   return html
