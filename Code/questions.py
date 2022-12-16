@@ -64,12 +64,13 @@ def make_question_checkbox(prompt, options, correct, explanation, graph = False,
 
 def make_question_input(prompt, options, correct, explanation, graph = False):
     # Clears the page
+    global score
     clear()
 
     # Add logo on the top left 
     put_image("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/final_assignment/Quizality_logo.png?raw=true", width = '250px')
 
-    show_score()
+    show_score(score)
     # Creates a checkbox prompt
     answer = input(prompt, type=options)
 
