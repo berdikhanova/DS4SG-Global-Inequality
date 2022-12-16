@@ -31,7 +31,7 @@ def main():
     first_page()
 
 if __name__ == '__main__':
-    question12()
+    main()
         
         
 
