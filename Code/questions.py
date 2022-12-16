@@ -216,7 +216,11 @@ question_dict = {
         "prompt": "How many percentage of children in Zimbabue completed the birth registration and had legal proof of idenity in 2019? Please answer between 0 and 100",
         "options": NUMBER,
         "correct": 48.7,
-        "explanation": "This legal proof of identity can help protect children from violence, abuse and exploitation. Without a birth certificate, children are unable to prove their age, which puts them at a much higher risk of being forced into early marriage or the labour market, or recruited into armed forces.",
+        "explanation": """
+        Answer: 48.7 % of chilfren in Zimbabue have completed the birth registration and had a legal proof of identity. 
+        Lack of birth registration can contribute to global inequality by denying children and their families access to legal protection, education, and other services that are essential for their well-being and development. 
+        Legal rights: Birth registration is important for establishing a child's legal rights, including the right to a name, nationality, and protection from abuse and exploitation. Without birth registration, children may be denied access to these legal rights, which can impact their ability to access education, healthcare, and other services.
+        """,
         "graph": birth_registration
     },
 
@@ -274,29 +278,39 @@ question_dict = {
     },
 
     "question12":{
-        "prompt":"Continent ???",
-        "options": NUMBER,
-        "correct": 10,
+        "prompt":"Which of the following is NOT a factor that can affect population growth rate?",
+
+        "options": [ "Birth rates","Death rates", "Immigration",  "Natural disasters"],
+        "correct": 4,
         "explanation": """
-        AAAAAAAAAAAAAA
+        Birth rates, death rates, and immigration are factors that can affect population growth rate.       
+        Birth rates: Birth rates refer to the number of live births per 1,000 people in a population. A high birth rate can lead to rapid population growth, while a low birth rate can result in slower population growth or population decline. Birth rates can be influenced by a variety of factors, including cultural and societal norms, access to family planning and reproductive healthcare, and economic and education opportunities for women.
+        Death rates: Death rates refer to the number of deaths per 1,000 people in a population. A high death rate can lead to population decline, while a low death rate can result in population growth. Death rates can be affected by factors such as access to healthcare, living conditions, and environmental factors.
+        Immigration: Immigration refers to the movement of people into a country from another country. Immigration can have an impact on population growth rate by adding to the total population size. Immigration can be influenced by a variety of factors, including economic opportunity, political instability, and conflict in the home country.
         """,
         "graph": continent_pop
     },
+
     "question13":{
-        "prompt":"Physicians ???",
+        "prompt":"The WHO estimates that at least 2.5 medical staff (physicians, nurses and midwives) per 1,000 people are needed to provide adequate coverage with primary care interventions. What percentage of countries in the world have fewer physicians than this level? Please answer between 0 and 100",
         "options": NUMBER,
-        "correct": 10,
+        "correct":68,
         "explanation": """
-        AAAAAAAAAAAAAA
+        The WHO estimates that at least 2.5 medical staff (physicians, nurses and midwives) per 1,000 people are needed to provide adequate coverage with primary care interventions. 
+        Hoever, 68% of countries on the globe have fewer physicians than the level so far. As you can see in the graph, there is significant global inequality in terms of the number of physicians per population. This can have significant impacts on the quality and accessibility of healthcare in different countries. One factor that contributes to global inequality in the number of physicians is the distribution of medical schools and training programs. Many high-income countries have a large number of medical schools and training programs, while low-income countries may have fewer such programs or may not have the resources to train as many physicians. As a result, there is often a higher density of physicians in high-income countries compared to low-income countries.
         """,
         "graph": physicians
     },
+
+
     "question14":{
-        "prompt":"Suicide",
-        "options": NUMBER,
-        "correct": 10,
+        "prompt":"Which of the following factors has been shown to be associated with lower suicide rates?",
+        "options": ["Higher levels of social support","Higher levels of economic stability", "Higher levels of education", "All of the above"],
+        "correct": 4,
         "explanation": """
-        AAAAAAAAAAAAAA
+        Global inequality can be related to suicide rate in terms of socio-economic status, access to mental health services and treatment, stigma surrounding mental health, and access to social support and strong social connections.
+        Studies have shown that lower socio-economic status is associated with higher suicide rates. This can be due to a range of factors, including financial stress, lack of access to resources and support, and social isolation. Inequality in terms of socio-economic status can therefore contribute to higher suicide rates in certain populations.
+        Stigma surrounding mental health and seeking help can also contribute to higher suicide rates. In some cultures, seeking help for mental health problems may be viewed as a sign of weakness or shame, leading individuals to feel unable to seek help and support. 
         """,
         "graph": suicide
     },
@@ -334,7 +348,9 @@ GDP per capita can also be affected by a variety of other factors, such as a cou
 In terms of global inequality, GDP per capita can be used as a rough indicator of the relative wealth of different countries. However, it is important to consider other factors and not rely solely on GDP per capita when comparing the wealth of different countries.
                     """,
     "Life_Expectancy": """
-    AAAAAA However, it is important to consider other factors and not rely solely on GDP per capita when comparing the wealth of different countries.
+    A lot of researches found a positive relationship between life expectancy and GDP per capita, meaning that countries with higher GDP per capita tend to have higher life expectancy.
+    Higher levels of GDP per capita are often associated with access to better healthcare, nutrition, education, and other factors that contribute to overall health and well-being.
+    In the context of global inequality, there is a significant gap in life expectancy between high-income and low-income countries. For example, according to data from the World Bank, the average life expectancy in high-income countries is around 82 years, while the average life expectancy in low-income countries is around 67 years. This gap in life expectancy is often attributed to the fact that high-income countries have greater access to healthcare, education, and other factors that contribute to overall health and well-being.
                     """,
     "unemployment": """
     According to the OECD, the definition of “unemployment” is the following: “people above a specified age not being in paid employment or self-employment but currently available for work during the reference period. Unemployment is measured by the unemployment rate, which is the number of people who are unemployed as a percentage of the labour force”. There are several types of unemployment: cyclical, structural and frictional unemployment.
@@ -350,11 +366,14 @@ Thus, even when an economy is operating at its maximum efficiency, there will st
 
 def first_page():
     clear()
+    # add logo
     put_image("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/final_assignment/Resources/quizality_logo.png?raw=true", width = '250px')
     put_markdown('# Welcome to the Quizality!').style( 'text-align: center; margin: auto;  width: 80%; font-size: 40px') 
+    # add team introduction
     put_text('"Inequality" in itself is a term that can trigger a number of different ideas in the mind of the reader or listener based on their knowledge and prejudice. The meaning attached to ‘Economic Inequality’ is not self-explanatory. Individuals from developed countries often cannot envision the extent of deepening economic crises in the Global South. As students at an international university, we have had the unique opportunity to travel around the world and have witnessed firsthand the disparities in income, education, healthcare, and other socio-economic issues. Therefore, my peers and I signed up for a project for our tutorial class, ‘Data Science for Social Good’, for our Fall semester of 2022.')
     put_markdown('# Meet Our Team!').style( 'text-align: center; margin: auto;  width: 80%; font-size: 40px')
     put_image("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/final_assignment/Resources/team_photo.png?raw=true", width='500px').style( 'display: block; margin-left: auto;  margin-right: auto;  width: 60%;')
+    # add start buttons
     put_markdown('Are You Ready To Play?').style( 'text-align: center; margin: auto;  width: 80%; font-size: 40px') 
     put_text('# In this game, there are two modes.........').style('text-align: center;')
     put_markdown('## Choose your Game Mode').style('text-align: center;')
@@ -392,7 +411,7 @@ def question11():
 # HEALTH
 # Population Growth in each continents
 def question12():
-    make_question_input(**question_dict["question12"])
+    make_question_checkbox(**question_dict["question12"])
     put_buttons(["Next"], onclick=[question4])
 
 # Birth Registration
@@ -417,7 +436,7 @@ def question13():
 
 # Suicide
 def question14():
-    make_question_input(**question_dict["question14"])
+    make_question_checkbox(**question_dict["question14"])
     put_buttons(["Next"], onclick=[question7])
 
 # EDUCATION

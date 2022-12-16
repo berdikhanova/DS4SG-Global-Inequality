@@ -174,7 +174,7 @@ def life_expectancy_sub():
                log_x=True, size_max=55, range_x=[50,100000], range_y=[25,90]).update_layout(
         xaxis_title="GDP per Capita (Log Scale)", yaxis_title="Life Expectancy")
 
-    #fig.layout.updatemenus[0].buttons[0].args[1]["frame"]["duration"] = 50
+    fig.layout.updatemenus[0].buttons[0].args[1]["frame"]["duration"] = 50
     html = fig.to_html(include_plotlyjs="require", full_html=False)
     
     return html
