@@ -29,6 +29,7 @@
 ## Research question:
 *How can we effectively communicate the extent and depth of global inequality using data visualizations and summary statistics?*
 
+
 ## Why Do We Care about Global Inequality?
 “Inequality” has become a popular buzzword among many media nowadays, and we are seeing more and more news reports about it. The Sustainable Development Goals (SGDs) have a call that aims at reducing inequality within and among countries, and the need to address global inequality on a global scale is clear. As Minervans, we have had the opportunity to travel around the world and have witnessed firsthand the disparities in income, and education, among others. Although we understand that reducing global inequality requires high-level transformative changes with appropriate political and economic policies, we believe there are several things we can do at the individual level. Our Data Science for Social Good project aims to create an interactive quiz game that helps users understand global inequality through active engagement with high-quality, evidence-based data visualizations and individual-level action items. Between 2008 and 2013, global inequality fell for the first time since the industrial revolution. The historic fall in global inequality was driven by robust growth in average incomes in populous developing countries such as China and India. Despite progress, two-thirds of global inequality is still due to differences in average incomes between countries. 
 
@@ -128,5 +129,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Cite
-
-Berdikhanova, M., Oliveira, F., Narimatsu, N., & Ali, N. (2022, November). Quizality. Quizality: An interactive quiz game to illustrate the depth  of global inequality. https://quizality-app.herokuapp.com/ 
+Berdikhanova, M., Oliveira, F., Narimatsu, N., & Ali, N. (2022, November). Quizality. Quizality: An interactive quiz game to illustrate the depth 
+&nbsp;&nbsp;&nbsp;&nbsp; of global inequality. https://quizality-app.herokuapp.com/ 
