@@ -174,7 +174,7 @@ def life_expectancy_sub():
                log_x=True, size_max=55, range_x=[50,100000], range_y=[25,90]).update_layout(
         xaxis_title="GDP per Capita (Log Scale)", yaxis_title="Life Expectancy")
 
-    #fig.layout.updatemenus[0].buttons[0].args[1]["frame"]["duration"] = 50
+    fig.layout.updatemenus[0].buttons[0].args[1]["frame"]["duration"] = 50
     html = fig.to_html(include_plotlyjs="require", full_html=False)
     
     return html
@@ -347,7 +347,7 @@ def labor_force():
    """
    # Subsetting data
    afg_female = df[(df['Country Code'] == "AFG") | (df['Country Code'] == "EUU")]
-   afg_female = df[(df['Indicator Code'] == "SL.TLF.TOTL.FE.ZS")]
+   afg_female = afg_female[(afg_female['Indicator Code'] == "SL.TLF.TOTL.FE.ZS")]
  
    # Plotting
    fig = px.line(afg_female, x='Date', y='value', text_auto='.3s', range_y=[0,100], labels = {"Date":"Years", "value":"Female labor force (% of total labor force)","Country Name":"Country"}, color = "Country Name", title='Female labor force (% of total labor force) in Afghanistan vs. European Union')
@@ -361,11 +361,11 @@ def post_enrollment():
    Post-secondary school enrollment (% of gross) in Least Developed Countries
    """
    # Subsetting data
-   afg_female = df[(df['Country Code'] == "LDC") | (df['Country Code'] == "EUU")]
-   afg_female = df[(df['Indicator Code'] == "SE.TER.ENRR")]
+   enrollmentpost = df[(df['Country Code'] == "LDC") | (df['Country Code'] == "EUU")]
+   enrollmentpost = enrollmentpost[(enrollmentpost['Indicator Code'] == "SE.TER.ENRR")]
  
    # Plotting
-   fig = px.line(afg_female, x='Date', y='value', text_auto='.3s', range_y=[0,100], labels = {"Date":"Years", "value":"Post-secondary school enrollment (% of gross)","Country Name":"Country"}, color = "Country Name", title='Post-secondary school enrollment (% of gross) in Least Developed Countries vs. European Union')
+   fig = px.line(enrollmentpost, x='Date', y='value', text_auto='.3s', range_y=[0,100], labels = {"Date":"Years", "value":"Post-secondary school enrollment (% of gross)","Country Name":"Country"}, color = "Country Name", title='Post-secondary school enrollment (% of gross) in Least Developed Countries vs. European Union')
   
    html = fig.to_html(include_plotlyjs="require", full_html=False)
  
