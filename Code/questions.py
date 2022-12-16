@@ -69,11 +69,13 @@ def make_question_input(prompt, options, correct, explanation, graph = False):
     # Add logo on the top left 
     put_image("https://github.com/berdikhanova/DS4SG-Global-Inequality/blob/final_assignment/Quizality_logo.png?raw=true", width = '250px')
 
+    show_score()
     # Creates a checkbox prompt
     answer = input(prompt, type=options)
 
     # Checks if the answer is correct
     if abs(answer-correct) <= 5 :
+        score += 1
         put_text("Good guess!, You are so close by ",round(abs(answer - correct), 1), "points!")
     else:
         put_text("Not quite, Your answer is ", round(abs(answer - correct),1), "points away.")
