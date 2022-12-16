@@ -29,10 +29,11 @@ CSS = """
     * {margin: 0; padding: 0; font-family: "Roboto", sans-serif; font-size: 18px; text-align: left; }
     """
 
-config(css_style=CSS)
-set_env(title='Quiz Game',output_max_width='90%')
+
 
 def main():
+    config(css_style=CSS)
+    set_env(title='Quiz Game',output_max_width='90%')
     first_page()
 
 if __name__ == '__main__':
