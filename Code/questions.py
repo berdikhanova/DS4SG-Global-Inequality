@@ -65,6 +65,7 @@ def make_question_checkbox(prompt, options, correct, explanation, graph = False,
 def make_question_input(prompt, options, correct, explanation, graph = False):
     # Clears the page
     global score
+    global n_questions
     clear()
 
     # Add logo on the top left 
@@ -81,6 +82,8 @@ def make_question_input(prompt, options, correct, explanation, graph = False):
     else:
         put_text("Not quite, Your answer is ", round(abs(answer - correct),1), "points away.")
 
+    n_questions += 1
+    
     if graph:
         put_html(graph())
 
