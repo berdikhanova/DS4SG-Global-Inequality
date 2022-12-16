@@ -335,7 +335,7 @@ def female_unemployment():
    mna_female = df[(df['Country Code'] == "MNA") & (df['Indicator Code'] == "SL.UEM.TOTL.FE.ZS")]
  
    # Plotting
-   fig = px.line(mna_female, x='Date', y='value', text_auto='.3s', range_y=[0,100], labels = {"Date":"Years", "value":"Female unemployment ($%$ of total labor force)","Country Name":"Country"}, title='Female unemployment (% of total labor force) in Middle East & North Africa (excluding high income)')
+   fig = px.line(mna_female, x='Date', y='value', range_y=[0,100], labels = {"Date":"Years", "value":"Female unemployment ($%$ of total labor force)","Country Name":"Country"}, title='Female unemployment (% of total labor force) in Middle East & North Africa (excluding high income)')
   
    html = fig.to_html(include_plotlyjs="require", full_html=False)
  
@@ -350,7 +350,7 @@ def labor_force():
    afg_female = afg_female[(afg_female['Indicator Code'] == "SL.TLF.TOTL.FE.ZS")]
  
    # Plotting
-   fig = px.line(afg_female, x='Date', y='value', text_auto='.3s', range_y=[0,100], labels = {"Date":"Years", "value":"Female labor force (% of total labor force)","Country Name":"Country"}, color = "Country Name", title='Female labor force (% of total labor force) in Afghanistan vs. European Union')
+   fig = px.line(afg_female, x='Date', y='value', range_y=[0,100], labels = {"Date":"Years", "value":"Female labor force (% of total labor force)","Country Name":"Country"}, color = "Country Name", title='Female labor force (% of total labor force) in Afghanistan vs. European Union')
   
    html = fig.to_html(include_plotlyjs="require", full_html=False)
  
@@ -365,7 +365,7 @@ def post_enrollment():
    enrollmentpost = enrollmentpost[(enrollmentpost['Indicator Code'] == "SE.TER.ENRR")]
  
    # Plotting
-   fig = px.line(enrollmentpost, x='Date', y='value', text_auto='.3s', range_y=[0,100], labels = {"Date":"Years", "value":"Post-secondary school enrollment (% of gross)","Country Name":"Country"}, color = "Country Name", title='Post-secondary school enrollment (% of gross) in Least Developed Countries vs. European Union')
+   fig = px.line(enrollmentpost, x='Date', y='value', range_y=[0,100], labels = {"Date":"Years", "value":"Post-secondary school enrollment (% of gross)","Country Name":"Country"}, color = "Country Name", title='Post-secondary school enrollment (% of gross) in Least Developed Countries vs. European Union')
   
    html = fig.to_html(include_plotlyjs="require", full_html=False)
  
