@@ -77,7 +77,7 @@ We used pandas to work with the dataset and pyplot to make visualizations, which
 | questions.py | Python file used to include the questions & the order of the questions |
 | visualizations.py | Python file containing visualizations for the questions |
 | Tests.ipynb | Notebook used to create the question in infinite mode |
-| Visualization Tests.ipynb | Notebook used to ??? |
+| Visualization Tests.ipynb | Notebook used to test the visualizations |
 | extracting_data.ipynb | Notebook used to filter for a specific topic |
 | pyweb_example.py | An example with a score board |
 
