@@ -74,16 +74,19 @@ def make_question_input(prompt, options, correct, explanation, graph = False):
     show_score(score)
     # Creates a checkbox prompt
     answer = input(prompt, type=options)
-
+    
     # Checks if the answer is correct
-    if abs(answer-correct) <= 5 :
-        score += 1
-        put_text("Good guess!, You are so close by ",round(abs(answer - correct), 1), "points!")
+    if answer != None:
+        if answer != None and abs(answer-correct) <= 5 :
+            score += 1
+            put_text("Good guess!, You are so close by ",round(abs(answer - correct), 1), "points!")
+        else:
+            put_text("Not quite, Your answer is ", round(abs(answer - correct),1), "points away.")
     else:
-        put_text("Not quite, Your answer is ", round(abs(answer - correct),1), "points away.")
+        put_text("Not quite")
 
     n_questions += 1
-    
+
     if graph:
         put_html(graph())
 
