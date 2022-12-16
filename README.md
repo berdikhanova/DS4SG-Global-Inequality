@@ -67,15 +67,8 @@ We used pandas to work with the dataset and pyplot to make visualizations, which
 | ------------- | ------------- |
 | Datasets.zip| World Bank Development Indicators raw dataset |
 | indicators.csv | Data containing the indicators for the app|
-| Poverty.csv | Data on the Poverty Indicators |
-| countries.csv | Data containing the list of countries |
+| countries.csv | Data containing values for countries only (exclusing economic status and regions)|
 | df_countries.csv | Data containing the list of countries |
-| df_economic.csv | Data containing the list of countries |
-| df_final_countries.csv | Data containing the list of countries |
-| df_final_econstatus.csv | Data containing the list of countries |
-| df_final_regions.csv | Data containing the list of countries |
-| df_final_rest.csv | Data containing the list of countries |
-| df_region.csv | Data containing the list of countries |
 
 **Code**
 | File | Content |
@@ -83,11 +76,10 @@ We used pandas to work with the dataset and pyplot to make visualizations, which
 | DS4SG_Data_Importing.ipynb| Notebook used to change and filter the data and exctract a final dataset|
 | questions.py | Python file used to include the questions & the order of the questions |
 | visualizations.py | Python file containing visualizations for the questions |
-| Tests.ipynb | Notebook used to ??? |
+| Tests.ipynb | Notebook used to create the question in infinite mode |
 | Visualization Tests.ipynb | Notebook used to ??? |
-| extracting_data.ipynb | Notebook used to ??? |
-| norika_questions.ipynb | Notebook used to ??? |
-| pyweb_example.py | Notebook used to ??? |
+| extracting_data.ipynb | Notebook used to filter for a specific topic |
+| pyweb_example.py | An example with a score board |
 
 ## How to Run the Application Locally
 ```
