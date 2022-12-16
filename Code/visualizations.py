@@ -371,3 +371,35 @@ def post_enrollment():
  
    return html
 
+
+def forest():
+   """
+   """
+   # Subsetting data
+   forest = df_final[(df_final['Indicator Name'] == 'Forest area (sq. km)')&(df_final['Country Name'] == 'World')]
+ 
+   # Plotting
+   fig = px.line(forest, x="Date", y="value", title="Forest Area (sq.km) - World").update_layout( xaxis_title="Year", yaxis_title="Area")  
+   
+   html = fig.to_html(include_plotlyjs="require", full_html=False)
+ 
+   return html
+
+def coal():
+    question2_df = df[(df['Country Name'] == "World") | (df['Country Code'] == "OED")| (df['Country Code'] == "LDC")]
+    question2_df = question2_df[question2_df['Indicator Code'] == 'EG.ELC.COAL.ZS' ] 
+    fig = px.line(question2_df, x="Date", y="value", labels = {"Date":"Year", "value":"percentage(%)","Country Name":"Country"},color = "Country Name", title='Electricity production from coal sources (% of total)', markers = True,)
+    html = fig.to_html(include_plotlyjs="require", full_html=False)
+    return html
+    
+def energy():
+   """
+   """
+   # Subsetting data
+   energy = df_final[(df_final['Indicator Name'] == 'Alternative and nuclear energy (% of total energy use)')&(df_final['Country Code'] == 'FRA')]
+   # Plotting
+   fig = px.line(energy, x="Date", y="value", title="Alternative and nuclear energy (% of total energy use) - France").update_layout( xaxis_title="Year", yaxis_title="percentage (%)")
+     
+   html = fig.to_html(include_plotlyjs="require", full_html=False)
+ 
+   return html
